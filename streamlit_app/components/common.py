@@ -31,8 +31,9 @@ def inject_premium_css() -> None:
     """Inject custom CSS for a premium, dark-themed dashboard look."""
     st.markdown("""
     <style>
-    /* ---- Import premium font ---- */
+    /* ---- Import premium fonts ---- */
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
 
     /* ---- Global typography ---- */
     html, body, p, h1, h2, h3, h4, h5, h6, label, button, input {
@@ -91,10 +92,57 @@ def inject_premium_css() -> None:
         border-radius: 14px !important;
         overflow: hidden;
         transition: all 0.3s ease;
+        margin-bottom: 8px !important;
     }
     [data-testid="stExpander"]:hover {
-        border-color: rgba(99, 102, 241, 0.25) !important;
-        box-shadow: 0 4px 16px rgba(99, 102, 241, 0.08);
+        border-color: rgba(99, 102, 241, 0.35) !important;
+        box-shadow: 0 4px 16px rgba(99, 102, 241, 0.12);
+    }
+    /* Completely eliminate overlapping ligature text in expander summary headers */
+    [data-testid="stExpander"] details summary {
+        display: flex !important;
+        align-items: center !important;
+        padding: 10px 16px !important;
+        cursor: pointer !important;
+    }
+    [data-testid="stExpander"] details summary svg {
+        display: none !important;
+    }
+    [data-testid="stExpander"] details summary [data-testid="stIconMaterial"],
+    [data-testid="stExpander"] details summary span[class*="icon"],
+    [data-testid="stExpander"] details summary span[class*="chevron"],
+    [data-testid="stExpander"] details summary span[class*="material-symbols"],
+    [data-testid="stExpander"] details summary [data-testid="stExpanderToggleIcon"] {
+        display: none !important;
+        visibility: hidden !important;
+        width: 0 !important;
+        height: 0 !important;
+        overflow: hidden !important;
+        font-size: 0 !important;
+        line-height: 0 !important;
+        position: absolute !important;
+        left: -9999px !important;
+    }
+    [data-testid="stExpander"] details summary::before {
+        content: "▸";
+        font-size: 15px;
+        font-weight: 700;
+        color: #818cf8;
+        display: inline-block;
+        transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        margin-right: 10px;
+        flex-shrink: 0;
+    }
+    [data-testid="stExpander"] details[open] summary::before {
+        transform: rotate(90deg);
+        color: #c084fc;
+    }
+    [data-testid="stExpander"] details summary p {
+        margin: 0 !important;
+        padding: 0 !important;
+        font-size: 0.92rem !important;
+        font-weight: 500 !important;
+        line-height: 1.4 !important;
     }
 
     /* ---- DataFrames ---- */
