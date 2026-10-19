@@ -73,7 +73,7 @@ The web dashboard provides interactive visualizations of the processed review da
 - **`logs/`**: Execution logs for debugging.
 - **`models/`**: Stored machine learning models and fine-tuned weights.
 - **`docs/`**: Project documentation (e.g., `DECISIONS.md` explaining architectural decisions).
-- **`notebooks/`**: Jupyter notebooks for exploratory data analysis (EDA).
+- **`notebooks/`**: Jupyter notebooks for exploratory data analysis (EDA, e.g. `FDS - PROJECT.ipynb`).
 
 ### Core Engine Files (`src/`)
 - **`data_loader.py`**: Discovers raw files, standardizes schemas, and builds the canonical master dataset.
@@ -95,8 +95,7 @@ The web dashboard provides interactive visualizations of the processed review da
 ### Dashboard Files (`streamlit_app/`)
 - **`app.py`**: The main entry point for the Streamlit dashboard.
 - **`pages/`**: Sub-pages for different analytical views (e.g., Risk, Sentiment, Failures).
-- **`components/`**: Reusable UI components for the dashboard.
-- **`utils/`**: Helper functions specific to Streamlit.
+- **`components/`**: Reusable UI components, charts, and shared utilities (`common.py`).
 
 ### Root Files
 - **`README.md`**: High-level overview and quickstart guide.

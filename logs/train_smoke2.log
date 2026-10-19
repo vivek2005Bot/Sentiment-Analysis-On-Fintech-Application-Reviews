@@ -1,39 +1,0 @@
-INFO train: Task sentiment: 12513 rows from annotation_sample_silver.csv | labels: {'POSITIVE': 7589, 'NEGATIVE': 4326, 'NEUTRAL': 598}
-Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 21668.15it/s]
-[transformers] [1mDistilBertForSequenceClassification LOAD REPORT[0m from: distilbert-base-uncased
-Key                     | Status     | 
-------------------------+------------+-
-vocab_layer_norm.weight | UNEXPECTED | 
-vocab_projector.bias    | UNEXPECTED | 
-vocab_layer_norm.bias   | UNEXPECTED | 
-vocab_transform.weight  | UNEXPECTED | 
-vocab_transform.bias    | UNEXPECTED | 
-pre_classifier.weight   | MISSING    | 
-classifier.weight       | MISSING    | 
-classifier.bias         | MISSING    | 
-pre_classifier.bias     | MISSING    | 
-
-Notes:
-- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
-- MISSING:	those params were newly initialized because missing from the checkpoint. Consider training on your downstream task.
-  0%|          | 0/25 [00:00<?, ?it/s]/Users/vivekkumar/FDS - PROJECT/.venv/lib/python3.14/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
-  super().__init__(loader)
-  4%|▍         | 1/25 [00:03<01:25,  3.55s/it]  8%|▊         | 2/25 [00:04<00:49,  2.15s/it] 12%|█▏        | 3/25 [00:05<00:37,  1.69s/it] 16%|█▌        | 4/25 [00:06<00:30,  1.47s/it] 20%|██        | 5/25 [00:08<00:26,  1.34s/it] 24%|██▍       | 6/25 [00:09<00:24,  1.27s/it] 28%|██▊       | 7/25 [00:10<00:22,  1.22s/it] 32%|███▏      | 8/25 [00:11<00:20,  1.19s/it] 36%|███▌      | 9/25 [00:12<00:18,  1.17s/it] 40%|████      | 10/25 [00:13<00:17,  1.16s/it] 44%|████▍     | 11/25 [00:14<00:16,  1.15s/it] 48%|████▊     | 12/25 [00:15<00:14,  1.13s/it] 52%|█████▏    | 13/25 [00:17<00:13,  1.13s/it] 56%|█████▌    | 14/25 [00:18<00:12,  1.13s/it] 60%|██████    | 15/25 [00:19<00:11,  1.12s/it] 64%|██████▍   | 16/25 [00:20<00:10,  1.12s/it] 68%|██████▊   | 17/25 [00:21<00:08,  1.12s/it] 72%|███████▏  | 18/25 [00:22<00:07,  1.12s/it] 76%|███████▌  | 19/25 [00:23<00:06,  1.12s/it] 80%|████████  | 20/25 [00:24<00:05,  1.12s/it]                                                80%|████████  | 20/25 [00:25<00:05,  1.12s/it] 84%|████████▍ | 21/25 [00:26<00:04,  1.13s/it] 88%|████████▊ | 22/25 [00:27<00:03,  1.12s/it] 92%|█████████▏| 23/25 [00:28<00:02,  1.12s/it] 96%|█████████▌| 24/25 [00:29<00:01,  1.12s/it]100%|██████████| 25/25 [00:30<00:00,  1.12s/it]{'loss': '1.838', 'grad_norm': '4.846', 'learning_rate': '5.217e-06', 'epoch': '0.8'}
-
-  0%|          | 0/7 [00:00<?, ?it/s][A
- 29%|██▊       | 2/7 [00:00<00:00,  6.80it/s][A
- 43%|████▎     | 3/7 [00:00<00:00,  4.79it/s][A
- 57%|█████▋    | 4/7 [00:00<00:00,  4.17it/s][A
- 71%|███████▏  | 5/7 [00:01<00:00,  3.88it/s][A
- 86%|████████▌ | 6/7 [00:01<00:00,  3.73it/s][A                                               
-                                             [A100%|██████████| 25/25 [00:32<00:00,  1.12s/it]
-100%|██████████| 7/7 [00:01<00:00,  3.73it/s][A
-                                             [A                                               100%|██████████| 25/25 [00:32<00:00,  1.12s/it]100%|██████████| 25/25 [00:32<00:00,  1.30s/it]
-/Users/vivekkumar/FDS - PROJECT/.venv/lib/python3.14/site-packages/torch/utils/data/dataloader.py:759: UserWarning: 'pin_memory' argument is set as true but not supported on MPS now, device pinned memory won't be used.
-  super().__init__(loader)
-{'eval_loss': '0.7228', 'eval_accuracy': '0.795', 'eval_macro_f1': '0.5314', 'eval_weighted_f1': '0.7718', 'eval_precision_macro': '0.543', 'eval_recall_macro': '0.5341', 'eval_runtime': '2.035', 'eval_samples_per_second': '98.27', 'eval_steps_per_second': '3.439', 'epoch': '1'}
-{'train_runtime': '32.59', 'train_samples_per_second': '24.55', 'train_steps_per_second': '0.767', 'train_loss': '1.763', 'epoch': '1'}
-  0%|          | 0/7 [00:00<?, ?it/s] 29%|██▊       | 2/7 [00:00<00:00,  6.85it/s] 43%|████▎     | 3/7 [00:00<00:00,  4.84it/s] 57%|█████▋    | 4/7 [00:00<00:00,  4.20it/s] 71%|███████▏  | 5/7 [00:01<00:00,  3.89it/s] 86%|████████▌ | 6/7 [00:01<00:00,  3.74it/s]100%|██████████| 7/7 [00:01<00:00,  4.56it/s]
-INFO model_registry: Metrics recorded -> /Users/vivekkumar/FDS - PROJECT/reports/model_results/sentiment_distilbert-base-uncased_20260919_211602.json
-INFO train: [sentiment/distilbert-base-uncased] macro_f1=0.4936 (smoke=True, split=random)
