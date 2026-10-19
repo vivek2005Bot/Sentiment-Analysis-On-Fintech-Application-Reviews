@@ -1,0 +1,20 @@
+{
+  "experiment_id": "sentiment_distilbert-base-uncased_20261019_184746",
+  "model": "distilbert-base-uncased",
+  "task": "sentiment",
+  "dataset_version": "master_v1",
+  "seed": 42,
+  "device": "mps",
+  "git_commit": "5febe10c1547b40abe281d2ada084363f7d95d55",
+  "started_at": "2026-10-19T18:47:46",
+  "split": "random",
+  "smoke": true,
+  "hyperparameters": {
+    "max_length": 256,
+    "learning_rate": 2e-05,
+    "epochs": 3,
+    "train_batch_size": 16,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1
+  }
+}

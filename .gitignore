@@ -72,3 +72,8 @@ logs/*.log
 .dmypy.json
 dmypy.json
 .pyre/
+
+# Large Model Weights & Checkpoints
+*.safetensors
+*.pt
+checkpoints/

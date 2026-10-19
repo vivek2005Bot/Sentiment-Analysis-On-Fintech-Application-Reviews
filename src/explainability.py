@@ -21,11 +21,23 @@ def explain_text(
 ) -> list[dict]:
     """Return top tokens with signed attribution for the predicted class."""
     import torch
+    from pathlib import Path
     from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
     device = device or mr.get_device()
-    tok = AutoTokenizer.from_pretrained(str(model_dir))
-    model = AutoModelForSequenceClassification.from_pretrained(str(model_dir))
+    model_path = Path(model_dir)
+    has_weights = (model_path / "model.safetensors").exists() or (model_path / "pytorch_model.bin").exists()
+
+    if has_weights:
+        tok = AutoTokenizer.from_pretrained(str(model_dir))
+        model = AutoModelForSequenceClassification.from_pretrained(str(model_dir))
+    else:
+        logger.warning(
+            "Fine-tuned weights not found at %s; using base 'distilbert-base-uncased' for attribution.",
+            model_dir
+        )
+        tok = AutoTokenizer.from_pretrained("distilbert-base-uncased")
+        model = AutoModelForSequenceClassification.from_pretrained("distilbert-base-uncased", num_labels=3)
     model.to(device)
     model.eval()
 
@@ -59,7 +71,7 @@ def explain_text(
     for r in top:
         r["attribution"] = round(r["attribution"], 5)
     return [
-        {"prediction_id": pred_id, "confidence": round(float(probs[pred_id]), 4)}
+        {"prediction_id": pred_id, "confidence": round(float(probs[pred_id].detach()), 4)}
     ] + top
 
 

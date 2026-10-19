@@ -35,8 +35,13 @@ def inject_premium_css() -> None:
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
     /* ---- Global typography ---- */
-    html, body, [class*="st-"] {
+    html, body, p, h1, h2, h3, h4, h5, h6, label, button, input {
         font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+    /* Explicitly preserve Streamlit & Material icon fonts so ligatures do not leak as text */
+    [data-testid*="Icon"], [data-testid="stExpanderToggleIcon"], [class*="material-symbols"], [class*="icon"], span[data-testid*="Icon"] {
+        font-family: 'Material Symbols Rounded', 'StreamlitSymbols', sans-serif !important;
+        font-style: normal;
     }
 
     /* ---- Streamlit metric cards ---- */
