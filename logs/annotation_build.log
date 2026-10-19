@@ -1,0 +1,45 @@
+INFO language_detector: Detecting language for 449367 rows ...
+INFO language_detector: Language distribution: {'English': 227741, 'Unknown': 135889, 'Hinglish': 81385, 'Hindi': 3192, 'Tamil': 372, 'Telugu': 230, 'Bengali': 204, 'Kannada': 95, 'Gujarati': 84, 'Malayalam': 74, 'Tanglish': 37, 'Oriya': 31, 'Punjabi': 21, 'Other_Indian': 12}
+INFO annotation: Annotation sample: 12513 rows -> /Users/vivekkumar/FDS - PROJECT/data/annotations/annotation_sample.csv
+INFO language_detector: Detecting language for 12513 rows ...
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/vivekkumar/FDS - PROJECT/src/annotation.py", line 121, in <module>
+    build_silver_annotation_set()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/vivekkumar/FDS - PROJECT/src/annotation.py", line 110, in build_silver_annotation_set
+    silver = add_silver_labels(sample)
+  File "/Users/vivekkumar/FDS - PROJECT/src/annotation.py", line 95, in add_silver_labels
+    out = language_detector.detect_language_frame(out)
+  File "/Users/vivekkumar/FDS - PROJECT/src/language_detector.py", line 163, in detect_language_frame
+    out["language"].value_counts(dropna=False).to_dict())
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/vivekkumar/FDS - PROJECT/.venv/lib/python3.14/site-packages/pandas/core/frame.py", line 8691, in value_counts
+    counts = self.groupby(
+             ~~~~~~~~~~~~^
+        subset, sort=False, dropna=dropna, observed=False
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )._grouper.size()
+    ^
+  File "/Users/vivekkumar/FDS - PROJECT/.venv/lib/python3.14/site-packages/pandas/util/_decorators.py", line 336, in wrapper
+    return func(*args, **kwargs)
+  File "/Users/vivekkumar/FDS - PROJECT/.venv/lib/python3.14/site-packages/pandas/core/frame.py", line 10835, in groupby
+    return DataFrameGroupBy(
+        obj=self,
+    ...<6 lines>...
+        dropna=dropna,
+    )
+  File "/Users/vivekkumar/FDS - PROJECT/.venv/lib/python3.14/site-packages/pandas/core/groupby/groupby.py", line 1095, in __init__
+    grouper, exclusions, obj = get_grouper(
+                               ~~~~~~~~~~~^
+        obj,
+        ^^^^
+    ...<4 lines>...
+        dropna=self.dropna,
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/vivekkumar/FDS - PROJECT/.venv/lib/python3.14/site-packages/pandas/core/groupby/grouper.py", line 896, in get_grouper
+    raise ValueError(f"Grouper for '{name}' not 1-dimensional")
+ValueError: Grouper for 'language' not 1-dimensional

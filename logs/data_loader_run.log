@@ -1,0 +1,79 @@
+INFO data_loader: Inventory: 17 files (11 usable) -> /Users/vivekkumar/FDS - PROJECT/data/inventory/data_inventory.csv
+INFO data_loader: Loaded Bank_of_India_reviews.csv          rows=49327
+INFO data_loader: Loaded Bank_of_Maharashtra_reviews.csv    rows=5465
+INFO data_loader: Loaded Central_Bank_of_India_reviews.csv  rows=44432
+INFO data_loader: Loaded Indian_Bank_reviews.csv            rows=65000
+INFO data_loader: Loaded Indian_Overseas_Bank_reviews.csv   rows=19555
+INFO data_loader: Loaded SBI_reviews.csv                    rows=65000
+INFO data_loader: Loaded UCO_Bank_reviews.csv               rows=65000
+INFO data_loader: Loaded Union_Bank_reviews.csv             rows=65000
+INFO data_loader: Loaded Axis_Bank_reviews.csv              rows=9200
+INFO data_loader: Loaded ICICI_Bank_reviews.csv             rows=1000
+INFO data_loader: Loaded IndusInd_Bank_reviews.csv          rows=60400
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/vivekkumar/FDS - PROJECT/src/data_loader.py", line 376, in <module>
+    master_df, load_summary = load_master()
+                              ~~~~~~~~~~~^^
+  File "/Users/vivekkumar/FDS - PROJECT/src/data_loader.py", line 336, in load_master
+    master.to_parquet(paths["master_parquet"], index=False, engine="pyarrow")
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vivekkumar/FDS - PROJECT/.venv/lib/python3.14/site-packages/pandas/core/frame.py", line 3135, in to_parquet
+    return to_parquet(
+        self,
+    ...<7 lines>...
+        **kwargs,
+    )
+  File "/Users/vivekkumar/FDS - PROJECT/.venv/lib/python3.14/site-packages/pandas/io/parquet.py", line 490, in to_parquet
+    impl.write(
+    ~~~~~~~~~~^
+        df,
+        ^^^
+    ...<6 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "/Users/vivekkumar/FDS - PROJECT/.venv/lib/python3.14/site-packages/pandas/io/parquet.py", line 191, in write
+    table = self.api.Table.from_pandas(df, **from_pandas_kwargs)
+  File "pyarrow/table.pxi", line 4769, in pyarrow.lib.Table.from_pandas
+  File "/Users/vivekkumar/FDS - PROJECT/.venv/lib/python3.14/site-packages/pyarrow/pandas_compat.py", line 669, in dataframe_to_arrays
+    arrays[i] = maybe_fut.result()
+                ~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/_base.py", line 447, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/_base.py", line 396, in __get_result
+    raise self._exception
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/thread.py", line 86, in run
+    result = ctx.run(self.task)
+  File "/opt/homebrew/Cellar/python@3.14/3.14.6/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/thread.py", line 73, in run
+    return fn(*args, **kwargs)
+  File "/Users/vivekkumar/FDS - PROJECT/.venv/lib/python3.14/site-packages/pyarrow/pandas_compat.py", line 644, in convert_column
+    raise e
+  File "/Users/vivekkumar/FDS - PROJECT/.venv/lib/python3.14/site-packages/pyarrow/pandas_compat.py", line 638, in convert_column
+    result = pa.array(col, type=type_, from_pandas=True, safe=safe)
+  File "pyarrow/array.pxi", line 408, in pyarrow.lib.array
+  File "pyarrow/array.pxi", line 91, in pyarrow.lib._ndarray_to_array
+    check_status(NdarrayToArrow(pool, values, mask, from_pandas,
+  File "pyarrow/error.pxi", line 92, in pyarrow.lib.check_status
+pyarrow.lib.ArrowTypeError: ("Expected bytes, got a 'float' object", 'Conversion failed for column app_version with type object')
+                      source_file                  bank  bank_type   rows  usable     status
+        Bank_of_India_reviews.csv         Bank_of_India GOVERNMENT 258523    True         ok
+  Bank_of_Maharashtra_reviews.csv   Bank_of_Maharashtra GOVERNMENT   6841    True         ok
+Central_Bank_of_India_reviews.csv Central_Bank_of_India GOVERNMENT  44605    True         ok
+          Indian_Bank_reviews.csv           Indian_Bank GOVERNMENT  77556    True         ok
+ Indian_Overseas_Bank_reviews.csv  Indian_Overseas_Bank GOVERNMENT  19707    True         ok
+                  SBI_reviews.csv                   SBI GOVERNMENT  90746    True         ok
+             UCO_Bank_reviews.csv              UCO_Bank GOVERNMENT  77272    True         ok
+           Union_Bank_reviews.csv            Union_Bank GOVERNMENT  65208    True         ok
+            Axis_Bank_reviews.csv             Axis_Bank    PRIVATE  16820    True         ok
+         Bandhan_Bank_reviews.csv          Bandhan_Bank    PRIVATE      0   False empty_file
+      City_Union_Bank_reviews.csv       City_Union_Bank    PRIVATE      0   False empty_file
+         Federal_Bank_reviews.csv          Federal_Bank    PRIVATE      0   False empty_file
+            HDFC_Bank_reviews.csv             HDFC_Bank    PRIVATE      0   False empty_file
+           ICICI_Bank_reviews.csv            ICICI_Bank    PRIVATE   1010    True         ok
+      IDFC_FIRST_Bank_reviews.csv       IDFC_FIRST_Bank    PRIVATE      0   False empty_file
+        IndusInd_Bank_reviews.csv         IndusInd_Bank    PRIVATE  80269    True         ok
+  Kotak_Mahindra_Bank_reviews.csv   Kotak_Mahindra_Bank    PRIVATE      0   False empty_file

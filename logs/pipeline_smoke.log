@@ -1,0 +1,51 @@
+INFO pipeline: PIPELINE SAMPLE RUN: 5000 rows
+INFO pipeline: Pipeline start: 5000 rows
+INFO language_detector: Detecting language for 5000 rows ...
+INFO language_detector: Language distribution: {'English': 2555, 'Unknown': 1534, 'Hinglish': 895, 'Hindi': 13, 'Malayalam': 1, 'Tanglish': 1, 'Tamil': 1}
+INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 3049, 'NEGATIVE': 1833, 'NEUTRAL': 118}
+/Users/vivekkumar/FDS - PROJECT/src/failure_detector.py:24: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  {name: text.str.contains(rex, na=False) for name, rex in res.items()},
+INFO failure_detector: Failure gate: YES=261 NO=4739 | friction YES=152 | critical=14
+/Users/vivekkumar/FDS - PROJECT/src/risk_engine.py:34: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  tech = text.str.contains(TECH_RISK_RE, na=False)
+/Users/vivekkumar/FDS - PROJECT/src/risk_engine.py:35: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  fin = text.str.contains(FIN_RISK_RE, na=False)
+INFO risk_engine: Risk (failure rows only): {<NA>: 4870, 'TECHNICAL_PERFORMANCE_RISK': 122, 'FINANCIAL_SECURITY_RISK': 8} | overlap YES=0
+/Users/vivekkumar/FDS - PROJECT/src/emotion_engine.py:28: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  {name: text.str.contains(rex, na=False) for name, rex in EMOTION_RES.items()},
+INFO emotion_engine: Emotion: {'NEUTRAL': 3562, 'JOY': 649, 'ANGER': 487, 'FRUSTRATION': 203, 'CONFUSION': 47, 'TRUST': 25, 'FEAR': 11, 'DISAPPOINTMENT': 10, 'SADNESS': 6}
+INFO aspect_engine: Extracting aspects for 5000 rows ...
+INFO aspect_engine: Reviews with >=1 aspect: 887
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/Users/vivekkumar/FDS - PROJECT/src/pipeline.py", line 135, in <module>
+    df = run_full_pipeline(sample_n=n)
+  File "/Users/vivekkumar/FDS - PROJECT/src/pipeline.py", line 55, in run_full_pipeline
+    master = response_engine.add_response_features(master)
+  File "/Users/vivekkumar/FDS - PROJECT/src/response_engine.py", line 42, in add_response_features
+    out["response_bucket"] = out["response_time_hours"].map(
+                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        lambda h: next((lab for e, lab in zip(edges, labels) if h < e),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                       labels[-1]) if pd.notna(h) else
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        ("No response" if not has_reply else pd.NA))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vivekkumar/FDS - PROJECT/.venv/lib/python3.14/site-packages/pandas/core/series.py", line 4675, in map
+    new_values = self._map_values(func, na_action=na_action)
+  File "/Users/vivekkumar/FDS - PROJECT/.venv/lib/python3.14/site-packages/pandas/core/base.py", line 1022, in _map_values
+    return algorithms.map_array(arr, mapper, na_action=na_action)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/vivekkumar/FDS - PROJECT/.venv/lib/python3.14/site-packages/pandas/core/algorithms.py", line 1715, in map_array
+    return lib.map_infer(values, mapper)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "pandas/_libs/lib.pyx", line 3071, in pandas._libs.lib.map_infer
+  File "/Users/vivekkumar/FDS - PROJECT/src/response_engine.py", line 45, in <lambda>
+    ("No response" if not has_reply else pd.NA))
+                          ^^^^^^^^^
+  File "/Users/vivekkumar/FDS - PROJECT/.venv/lib/python3.14/site-packages/pandas/core/generic.py", line 1501, in __bool__
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().

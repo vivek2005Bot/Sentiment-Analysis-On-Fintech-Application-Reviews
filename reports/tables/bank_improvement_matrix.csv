@@ -1,0 +1,206 @@
+bank,issue,bank_rate,industry_rate,difference,volume,avg_severity,suggested_operational_area
+Axis_Bank,negative_rate,0.1805,0.3475,-0.1669,9200,1.07,Observed issue
+Axis_Bank,failure_rate,0.0365,0.0561,-0.0196,9200,1.07,Observed issue
+Axis_Bank,technical_risk_rate,0.0203,0.0333,-0.013,9200,1.07,Observed issue
+Axis_Bank,financial_risk_rate,0.0057,0.0033,0.0023,9200,1.07,Observed issue
+Axis_Bank,aspect:ACCOUNT,0.6545,0.7276,-0.073,165,1.06,Account services
+Axis_Bank,aspect:APP_PERFORMANCE,0.561,0.7229,-0.1619,82,1.55,App performance
+Axis_Bank,aspect:CRASH,0.9038,0.9222,-0.0184,52,3.0,App stability
+Axis_Bank,aspect:CREDIT_CARD,0.7867,0.8555,-0.0688,75,1.17,Credit card services
+Axis_Bank,aspect:CUSTOMER_SERVICE,0.5135,0.8107,-0.2972,74,1.11,Customer service responsiveness
+Axis_Bank,aspect:LOAN,0.5882,0.5799,0.0083,34,1.0,Loan servicing
+Axis_Bank,aspect:LOGIN,0.8938,0.9035,-0.0097,113,1.11,Login and credential flows
+Axis_Bank,aspect:OTP,0.8529,0.8817,-0.0288,34,1.06,OTP delivery and verification
+Axis_Bank,aspect:SECURITY,0.254,0.2119,0.0421,63,1.02,Security posture
+Axis_Bank,aspect:TRANSACTION,0.2394,0.5131,-0.2737,71,1.03,Transaction processing
+Axis_Bank,aspect:UI_UX,0.2059,0.4752,-0.2693,34,1.32,Interface usability
+Bank_of_India,negative_rate,0.4944,0.3255,0.1689,49327,1.13,Observed issue
+Bank_of_India,failure_rate,0.0712,0.0538,0.0175,49327,1.13,Observed issue
+Bank_of_India,technical_risk_rate,0.0443,0.0316,0.0127,49327,1.13,Observed issue
+Bank_of_India,financial_risk_rate,0.0034,0.0034,-0.0,49327,1.13,Observed issue
+Bank_of_India,aspect:ACCOUNT,0.8069,0.7136,0.0933,1388,1.09,Account services
+Bank_of_India,aspect:APP_PERFORMANCE,0.7624,0.7148,0.0476,1486,1.6,App performance
+Bank_of_India,aspect:ATM,0.7286,0.5607,0.1678,70,1.1,ATM/card services
+Bank_of_India,aspect:CRASH,0.918,0.9225,-0.0045,378,2.99,App stability
+Bank_of_India,aspect:CREDIT_CARD,0.5116,0.8646,-0.353,43,1.07,Credit card services
+Bank_of_India,aspect:CUSTOMER_SERVICE,0.8822,0.7877,0.0945,382,1.1,Customer service responsiveness
+Bank_of_India,aspect:FEATURE_REQUEST,0.6296,0.7398,-0.1101,81,1.22,Feature backlog
+Bank_of_India,aspect:FRAUD,0.9091,0.9159,-0.0068,55,4.44,Fraud monitoring
+Bank_of_India,aspect:KYC,0.8267,0.8032,0.0235,75,1.04,KYC journeys
+Bank_of_India,aspect:LOAN,0.7091,0.5683,0.1408,55,1.15,Loan servicing
+Bank_of_India,aspect:LOGIN,0.9249,0.8993,0.0255,2076,1.19,Login and credential flows
+Bank_of_India,aspect:NOTIFICATION,0.8866,0.8704,0.0162,97,1.12,Notification reliability
+Bank_of_India,aspect:OTP,0.9312,0.8521,0.0791,538,1.16,OTP delivery and verification
+Bank_of_India,aspect:SECURITY,0.1382,0.2234,-0.0851,434,1.0,Security posture
+Bank_of_India,aspect:SERVER,0.9065,0.8188,0.0876,449,2.1,Server capacity and uptime
+Bank_of_India,aspect:TRANSACTION,0.5787,0.5021,0.0765,375,1.14,Transaction processing
+Bank_of_India,aspect:UI_UX,0.6201,0.4466,0.1735,308,1.29,Interface usability
+Bank_of_India,aspect:UPI,0.6838,0.6349,0.0489,136,1.01,UPI payment processing
+Bank_of_Maharashtra,negative_rate,0.6057,0.3408,0.2649,5465,1.14,Observed issue
+Bank_of_Maharashtra,failure_rate,0.0884,0.0553,0.0331,5465,1.14,Observed issue
+Bank_of_Maharashtra,technical_risk_rate,0.0492,0.0328,0.0164,5465,1.14,Observed issue
+Bank_of_Maharashtra,financial_risk_rate,0.0029,0.0034,-0.0005,5465,1.14,Observed issue
+Bank_of_Maharashtra,aspect:ACCOUNT,0.7871,0.7251,0.062,202,1.09,Account services
+Bank_of_Maharashtra,aspect:APP_PERFORMANCE,0.8711,0.7188,0.1524,194,1.63,App performance
+Bank_of_Maharashtra,aspect:CRASH,0.9118,0.922,-0.0103,34,3.0,App stability
+Bank_of_Maharashtra,aspect:CUSTOMER_SERVICE,0.7857,0.8022,-0.0164,28,1.04,Customer service responsiveness
+Bank_of_Maharashtra,aspect:LOGIN,0.9525,0.902,0.0505,358,1.2,Login and credential flows
+Bank_of_Maharashtra,aspect:OTP,0.8571,0.8819,-0.0247,49,1.33,OTP delivery and verification
+Bank_of_Maharashtra,aspect:SECURITY,0.3704,0.2114,0.159,27,1.0,Security posture
+Bank_of_Maharashtra,aspect:SERVER,0.9516,0.8323,0.1194,62,2.26,Server capacity and uptime
+Bank_of_Maharashtra,aspect:TRANSACTION,0.7027,0.5054,0.1974,74,1.2,Transaction processing
+Bank_of_Maharashtra,aspect:UI_UX,0.5192,0.4698,0.0494,52,1.25,Interface usability
+Bank_of_Maharashtra,aspect:UPI,0.3913,0.6451,-0.2538,23,1.0,UPI payment processing
+Central_Bank_of_India,negative_rate,0.342,0.3443,-0.0022,44432,1.07,Observed issue
+Central_Bank_of_India,failure_rate,0.0403,0.0574,-0.017,44432,1.07,Observed issue
+Central_Bank_of_India,technical_risk_rate,0.022,0.0342,-0.0123,44432,1.07,Observed issue
+Central_Bank_of_India,financial_risk_rate,0.0034,0.0034,-0.0,44432,1.07,Observed issue
+Central_Bank_of_India,aspect:ACCOUNT,0.6994,0.7296,-0.0301,1068,1.06,Account services
+Central_Bank_of_India,aspect:APP_PERFORMANCE,0.7811,0.7169,0.0642,772,1.52,App performance
+Central_Bank_of_India,aspect:ATM,0.625,0.5687,0.0563,144,1.02,ATM/card services
+Central_Bank_of_India,aspect:CRASH,0.8977,0.9236,-0.0258,176,2.98,App stability
+Central_Bank_of_India,aspect:CREDIT_CARD,0.32,0.8632,-0.5432,25,1.0,Credit card services
+Central_Bank_of_India,aspect:CUSTOMER_SERVICE,0.9073,0.7953,0.112,151,1.07,Customer service responsiveness
+Central_Bank_of_India,aspect:FEATURE_REQUEST,0.5833,0.7564,-0.173,132,1.05,Feature backlog
+Central_Bank_of_India,aspect:FRAUD,0.8056,0.9268,-0.1213,36,3.78,Fraud monitoring
+Central_Bank_of_India,aspect:LOAN,0.6061,0.5789,0.0271,33,1.0,Loan servicing
+Central_Bank_of_India,aspect:LOGIN,0.8707,0.9072,-0.0365,1353,1.13,Login and credential flows
+Central_Bank_of_India,aspect:NOTIFICATION,0.9167,0.8667,0.05,96,1.11,Notification reliability
+Central_Bank_of_India,aspect:OTP,0.9074,0.8789,0.0285,108,1.13,OTP delivery and verification
+Central_Bank_of_India,aspect:SECURITY,0.1371,0.2204,-0.0833,321,1.0,Security posture
+Central_Bank_of_India,aspect:SERVER,0.8889,0.8272,0.0617,315,1.85,Server capacity and uptime
+Central_Bank_of_India,aspect:TRANSACTION,0.4841,0.5131,-0.029,661,1.13,Transaction processing
+Central_Bank_of_India,aspect:UI_UX,0.5029,0.4683,0.0346,171,1.31,Interface usability
+Central_Bank_of_India,aspect:UPI,0.6269,0.6411,-0.0143,67,1.04,UPI payment processing
+ICICI_Bank,negative_rate,0.372,0.344,0.028,1000,1.15,Observed issue
+ICICI_Bank,failure_rate,0.069,0.0557,0.0133,1000,1.15,Observed issue
+ICICI_Bank,technical_risk_rate,0.04,0.033,0.007,1000,1.15,Observed issue
+ICICI_Bank,financial_risk_rate,0.008,0.0034,0.0046,1000,1.15,Observed issue
+ICICI_Bank,aspect:APP_PERFORMANCE,0.6452,0.7218,-0.0767,31,1.48,App performance
+ICICI_Bank,aspect:LOGIN,0.8846,0.9034,-0.0188,26,1.23,Login and credential flows
+Indian_Bank,negative_rate,0.1438,0.3779,-0.2341,65000,1.06,Observed issue
+Indian_Bank,failure_rate,0.0187,0.0619,-0.0432,65000,1.06,Observed issue
+Indian_Bank,technical_risk_rate,0.0133,0.0364,-0.023,65000,1.06,Observed issue
+Indian_Bank,financial_risk_rate,0.0017,0.0037,-0.002,65000,1.06,Observed issue
+Indian_Bank,aspect:ACCOUNT,0.383,0.7521,-0.3691,705,1.09,Account services
+Indian_Bank,aspect:APP_PERFORMANCE,0.5679,0.7617,-0.1938,2164,1.56,App performance
+Indian_Bank,aspect:ATM,0.5091,0.597,-0.0879,55,1.0,ATM/card services
+Indian_Bank,aspect:CRASH,0.8333,0.9262,-0.0929,126,2.98,App stability
+Indian_Bank,aspect:CUSTOMER_SERVICE,0.4646,0.8306,-0.366,198,1.06,Customer service responsiveness
+Indian_Bank,aspect:FEATURE_REQUEST,0.3667,0.7426,-0.3759,30,1.0,Feature backlog
+Indian_Bank,aspect:KYC,0.5676,0.819,-0.2514,37,1.0,KYC journeys
+Indian_Bank,aspect:LOAN,0.4133,0.6025,-0.1891,75,1.07,Loan servicing
+Indian_Bank,aspect:LOGIN,0.6841,0.9104,-0.2263,402,1.15,Login and credential flows
+Indian_Bank,aspect:NOTIFICATION,0.5526,0.887,-0.3344,38,1.08,Notification reliability
+Indian_Bank,aspect:OTP,0.7742,0.8909,-0.1167,124,1.19,OTP delivery and verification
+Indian_Bank,aspect:SECURITY,0.0465,0.2363,-0.1898,430,1.01,Security posture
+Indian_Bank,aspect:SERVER,0.5685,0.8664,-0.2978,248,2.1,Server capacity and uptime
+Indian_Bank,aspect:TRANSACTION,0.3152,0.541,-0.2258,625,1.08,Transaction processing
+Indian_Bank,aspect:UI_UX,0.273,0.5003,-0.2272,282,1.41,Interface usability
+Indian_Bank,aspect:UPI,0.5,0.657,-0.157,130,1.08,UPI payment processing
+Indian_Overseas_Bank,negative_rate,0.2754,0.3472,-0.0717,19555,1.07,Observed issue
+Indian_Overseas_Bank,failure_rate,0.0341,0.0567,-0.0226,19555,1.07,Observed issue
+Indian_Overseas_Bank,technical_risk_rate,0.0177,0.0337,-0.016,19555,1.07,Observed issue
+Indian_Overseas_Bank,financial_risk_rate,0.0027,0.0034,-0.0007,19555,1.07,Observed issue
+Indian_Overseas_Bank,aspect:ACCOUNT,0.6165,0.7309,-0.1143,399,1.07,Account services
+Indian_Overseas_Bank,aspect:APP_PERFORMANCE,0.5871,0.7297,-0.1425,591,1.51,App performance
+Indian_Overseas_Bank,aspect:ATM,0.7778,0.5744,0.2034,27,1.11,ATM/card services
+Indian_Overseas_Bank,aspect:CUSTOMER_SERVICE,0.7753,0.8029,-0.0277,89,1.11,Customer service responsiveness
+Indian_Overseas_Bank,aspect:FEATURE_REQUEST,0.7333,0.7289,0.0045,45,1.09,Feature backlog
+Indian_Overseas_Bank,aspect:LOAN,0.2581,0.5967,-0.3387,31,1.0,Loan servicing
+Indian_Overseas_Bank,aspect:LOGIN,0.8021,0.9064,-0.1043,379,1.17,Login and credential flows
+Indian_Overseas_Bank,aspect:NOTIFICATION,0.9327,0.853,0.0797,208,1.2,Notification reliability
+Indian_Overseas_Bank,aspect:OTP,0.8627,0.8817,-0.0189,51,1.25,OTP delivery and verification
+Indian_Overseas_Bank,aspect:SECURITY,0.1419,0.2158,-0.0739,148,1.03,Security posture
+Indian_Overseas_Bank,aspect:SERVER,0.8049,0.8365,-0.0316,82,2.07,Server capacity and uptime
+Indian_Overseas_Bank,aspect:TRANSACTION,0.321,0.5197,-0.1988,243,1.16,Transaction processing
+Indian_Overseas_Bank,aspect:UI_UX,0.2368,0.4794,-0.2426,76,1.42,Interface usability
+Indian_Overseas_Bank,aspect:UPI,0.5526,0.6461,-0.0935,76,1.01,UPI payment processing
+IndusInd_Bank,negative_rate,0.405,0.3346,0.0704,60400,1.13,Observed issue
+IndusInd_Bank,failure_rate,0.0705,0.0534,0.0171,60400,1.13,Observed issue
+IndusInd_Bank,technical_risk_rate,0.0397,0.032,0.0077,60400,1.13,Observed issue
+IndusInd_Bank,financial_risk_rate,0.0064,0.0029,0.0034,60400,1.13,Observed issue
+IndusInd_Bank,aspect:ACCOUNT,0.7254,0.7265,-0.0011,1293,1.19,Account services
+IndusInd_Bank,aspect:APP_PERFORMANCE,0.846,0.6923,0.1537,1994,1.71,App performance
+IndusInd_Bank,aspect:CRASH,0.9779,0.9156,0.0623,272,2.99,App stability
+IndusInd_Bank,aspect:CREDIT_CARD,0.9108,0.6245,0.2863,863,1.05,Credit card services
+IndusInd_Bank,aspect:CUSTOMER_SERVICE,0.8577,0.7871,0.0706,534,1.06,Customer service responsiveness
+IndusInd_Bank,aspect:FEATURE_REQUEST,0.8675,0.7139,0.1536,83,1.24,Feature backlog
+IndusInd_Bank,aspect:FRAUD,0.9694,0.8947,0.0747,98,4.39,Fraud monitoring
+IndusInd_Bank,aspect:KYC,0.8106,0.8046,0.006,132,1.09,KYC journeys
+IndusInd_Bank,aspect:LOAN,0.6061,0.5756,0.0304,99,1.08,Loan servicing
+IndusInd_Bank,aspect:LOGIN,0.9317,0.8999,0.0318,1420,1.18,Login and credential flows
+IndusInd_Bank,aspect:NOTIFICATION,0.9286,0.8673,0.0613,70,1.03,Notification reliability
+IndusInd_Bank,aspect:OTP,0.9255,0.878,0.0475,94,1.16,OTP delivery and verification
+IndusInd_Bank,aspect:SECURITY,0.7635,0.1609,0.6026,296,1.18,Security posture
+IndusInd_Bank,aspect:SERVER,0.9118,0.8211,0.0906,374,2.6,Server capacity and uptime
+IndusInd_Bank,aspect:TRANSACTION,0.7389,0.4909,0.248,314,1.31,Transaction processing
+IndusInd_Bank,aspect:UI_UX,0.6816,0.4523,0.2293,179,1.35,Interface usability
+IndusInd_Bank,aspect:UPI,0.8333,0.6251,0.2082,90,1.18,UPI payment processing
+SBI,negative_rate,0.3392,0.3449,-0.0056,65000,1.09,Observed issue
+SBI,failure_rate,0.0467,0.0572,-0.0105,65000,1.09,Observed issue
+SBI,technical_risk_rate,0.028,0.0339,-0.0059,65000,1.09,Observed issue
+SBI,financial_risk_rate,0.0039,0.0033,0.0006,65000,1.09,Observed issue
+SBI,aspect:ACCOUNT,0.7286,0.726,0.0025,1492,1.09,Account services
+SBI,aspect:APP_PERFORMANCE,0.5908,0.7348,-0.144,958,1.45,App performance
+SBI,aspect:ATM,0.4,0.6093,-0.2093,50,1.1,ATM/card services
+SBI,aspect:CRASH,0.8801,0.9284,-0.0483,367,2.98,App stability
+SBI,aspect:CREDIT_CARD,0.7297,0.855,-0.1252,37,1.0,Credit card services
+SBI,aspect:CUSTOMER_SERVICE,0.7837,0.8043,-0.0206,282,1.1,Customer service responsiveness
+SBI,aspect:FEATURE_REQUEST,0.7293,0.7291,0.0002,181,1.17,Feature backlog
+SBI,aspect:FRAUD,0.8852,0.9208,-0.0355,61,4.26,Fraud monitoring
+SBI,aspect:KYC,0.8452,0.7744,0.0708,310,1.03,KYC journeys
+SBI,aspect:LOAN,0.672,0.542,0.1299,189,1.02,Loan servicing
+SBI,aspect:LOGIN,0.8306,0.9166,-0.086,1995,1.19,Login and credential flows
+SBI,aspect:MONEY_TRANSFER,0.8261,0.6333,0.1928,23,1.0,Fund transfer journeys
+SBI,aspect:NOTIFICATION,0.7734,0.8895,-0.1161,128,1.15,Notification reliability
+SBI,aspect:OTP,0.7797,0.8899,-0.1102,118,1.06,OTP delivery and verification
+SBI,aspect:SECURITY,0.1841,0.2246,-0.0405,1016,1.04,Security posture
+SBI,aspect:SERVER,0.7724,0.8426,-0.0703,246,2.25,Server capacity and uptime
+SBI,aspect:TRANSACTION,0.5412,0.5004,0.0408,885,1.14,Transaction processing
+SBI,aspect:UI_UX,0.4855,0.4648,0.0207,657,1.26,Interface usability
+SBI,aspect:UPI,0.6856,0.6166,0.069,423,1.03,UPI payment processing
+UCO_Bank,negative_rate,0.0668,0.3909,-0.3242,65000,1.02,Observed issue
+UCO_Bank,failure_rate,0.0111,0.0632,-0.0521,65000,1.02,Observed issue
+UCO_Bank,technical_risk_rate,0.0065,0.0375,-0.031,65000,1.02,Observed issue
+UCO_Bank,financial_risk_rate,0.0012,0.0038,-0.0026,65000,1.02,Observed issue
+UCO_Bank,aspect:ACCOUNT,0.3652,0.7481,-0.3829,575,1.07,Account services
+UCO_Bank,aspect:APP_PERFORMANCE,0.3689,0.7344,-0.3655,366,1.34,App performance
+UCO_Bank,aspect:ATM,0.1957,0.6302,-0.4345,46,1.0,ATM/card services
+UCO_Bank,aspect:CRASH,0.8182,0.9232,-0.105,33,3.0,App stability
+UCO_Bank,aspect:CUSTOMER_SERVICE,0.3037,0.8301,-0.5264,135,1.06,Customer service responsiveness
+UCO_Bank,aspect:FEATURE_REQUEST,0.5385,0.7384,-0.2,39,1.15,Feature backlog
+UCO_Bank,aspect:IMPS,0.4815,0.625,-0.1435,27,1.0,IMPS transfers
+UCO_Bank,aspect:KYC,0.5455,0.8142,-0.2687,22,1.0,KYC journeys
+UCO_Bank,aspect:LOAN,0.4,0.5956,-0.1956,50,1.0,Loan servicing
+UCO_Bank,aspect:LOGIN,0.6923,0.9083,-0.216,299,1.1,Login and credential flows
+UCO_Bank,aspect:NOTIFICATION,0.7037,0.8777,-0.174,27,1.44,Notification reliability
+UCO_Bank,aspect:OTP,0.6719,0.8905,-0.2187,64,1.16,OTP delivery and verification
+UCO_Bank,aspect:SECURITY,0.028,0.2388,-0.2108,428,1.01,Security posture
+UCO_Bank,aspect:SERVER,0.6347,0.8505,-0.2158,167,2.13,Server capacity and uptime
+UCO_Bank,aspect:TRANSACTION,0.2328,0.5381,-0.3053,421,1.1,Transaction processing
+UCO_Bank,aspect:UI_UX,0.0874,0.506,-0.4185,183,1.38,Interface usability
+UCO_Bank,aspect:UPI,0.4848,0.6645,-0.1796,165,1.08,UPI payment processing
+Union_Bank,negative_rate,0.6784,0.2875,0.3909,65000,1.2,Observed issue
+Union_Bank,failure_rate,0.1374,0.0419,0.0956,65000,1.2,Observed issue
+Union_Bank,technical_risk_rate,0.0821,0.0247,0.0573,65000,1.2,Observed issue
+Union_Bank,financial_risk_rate,0.0039,0.0033,0.0006,65000,1.2,Observed issue
+Union_Bank,aspect:ACCOUNT,0.8712,0.6703,0.2009,2827,1.08,Account services
+Union_Bank,aspect:APP_PERFORMANCE,0.8853,0.6871,0.1982,1822,1.7,App performance
+Union_Bank,aspect:ATM,0.814,0.5628,0.2512,43,1.05,ATM/card services
+Union_Bank,aspect:CHARGES,0.9545,0.622,0.3326,22,1.18,Fee transparency
+Union_Bank,aspect:CRASH,0.9425,0.9042,0.0383,1252,2.98,App stability
+Union_Bank,aspect:CUSTOMER_SERVICE,0.9337,0.7565,0.1772,649,1.07,Customer service responsiveness
+Union_Bank,aspect:FEATURE_REQUEST,0.8834,0.6732,0.2102,223,1.1,Feature backlog
+Union_Bank,aspect:FRAUD,0.96,0.9076,0.0524,50,4.44,Fraud monitoring
+Union_Bank,aspect:KYC,0.8052,0.8058,-0.0006,77,1.04,KYC journeys
+Union_Bank,aspect:LOAN,0.6471,0.5746,0.0725,51,1.04,Loan servicing
+Union_Bank,aspect:LOGIN,0.9639,0.8703,0.0936,4599,1.23,Login and credential flows
+Union_Bank,aspect:MONEY_TRANSFER,0.8636,0.6264,0.2373,22,1.0,Fund transfer journeys
+Union_Bank,aspect:NOTIFICATION,0.9162,0.8617,0.0545,167,1.08,Notification reliability
+Union_Bank,aspect:OTP,0.9069,0.8747,0.0322,290,1.22,OTP delivery and verification
+Union_Bank,aspect:SECURITY,0.4893,0.1882,0.3011,280,1.11,Security posture
+Union_Bank,aspect:SERVER,0.9161,0.8176,0.0985,429,2.02,Server capacity and uptime
+Union_Bank,aspect:TRANSACTION,0.7645,0.4609,0.3036,688,1.18,Transaction processing
+Union_Bank,aspect:UI_UX,0.6901,0.4438,0.2463,242,1.28,Interface usability
+Union_Bank,aspect:UPI,0.7961,0.6261,0.17,103,1.03,UPI payment processing

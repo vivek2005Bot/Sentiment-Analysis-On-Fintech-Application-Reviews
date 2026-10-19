@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-09-19T21:18:20.195372",
+  "total_rows": 449379,
+  "rows_per_bank": {
+    "Indian_Bank": 65000,
+    "SBI": 65000,
+    "UCO_Bank": 65000,
+    "Union_Bank": 65000,
+    "IndusInd_Bank": 60400,
+    "Bank_of_India": 49327,
+    "Central_Bank_of_India": 44432,
+    "Indian_Overseas_Bank": 19555,
+    "Axis_Bank": 9200,
+    "Bank_of_Maharashtra": 5465,
+    "ICICI_Bank": 1000
+  },
+  "rows_per_bank_type": {
+    "GOVERNMENT": 378779,
+    "PRIVATE": 70600
+  },
+  "empty_text_rows": 12,
+  "empty_text_pct": 0.003,
+  "duplicate_review_ids_rows": 0,
+  "duplicate_normalized_text_rows": 240008,
+  "duplicate_text_policy": "count_only",
+  "rating_distribution": {
+    "1": 145034,
+    "2": 14152,
+    "3": 16208,
+    "4": 36556,
+    "5": 237429
+  },
+  "rating_missing": 0,
+  "date_range": {
+    "min": "2015-10-22 08:53:44",
+    "max": "2026-09-18 19:09:13",
+    "unparseable_or_missing": 0
+  },
+  "malformed_records": {
+    "unparseable_dates": 0,
+    "non_numeric_ratings": 0,
+    "negative_or_zero_ratings": 0,
+    "ratings_above_five": 0
+  },
+  "text_length_chars": {
+    "mean": 45.3,
+    "median": 15.0,
+    "p95": 198.0,
+    "max": 1027
+  },
+  "artifact_counts": {
+    "urls": 0,
+    "emails": 3,
+    "phone_like": 0,
+    "account_like_digits": 11,
+    "emojis": 66816,
+    "html_tags": 0,
+    "html_entities": 1
+  },
+  "missingness": {
+    "review_text": 12,
+    "rating": 0,
+    "review_date": 0,
+    "review_id": 0,
+    "reply_text": 195430,
+    "reply_date": 195430,
+    "app_version": 69950
+  }
+}

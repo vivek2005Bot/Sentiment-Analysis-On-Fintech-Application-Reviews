@@ -1,0 +1,128 @@
+# =============================================================================
+# Indian Banking Review Intelligence - Master Configuration
+# All pipeline constants live here. Code must read from this file (no
+# scattered hard-coded values). Version-controlled; changes are documented
+# in docs/DECISIONS.md.
+# =============================================================================
+
+project:
+  name: indian_banking_review_intelligence
+  version: 0.1.0
+  seed: 42
+
+paths:
+  raw_data_dirs:                  # folder name -> bank_type (NEVER modified)
+    Govt_Banks: GOVERNMENT
+    Pvt_Banks: PRIVATE
+  data_dir: data
+  inventory_dir: data/inventory
+  interim_dir: data/interim
+  processed_dir: data/processed
+  annotations_dir: data/annotations
+  predictions_dir: data/predictions
+  samples_dir: data/samples
+  models_dir: models
+  reports_dir: reports
+  tables_dir: reports/tables
+  figures_dir: reports/figures
+  model_results_dir: reports/model_results
+  logs_dir: logs
+  master_parquet: data/processed/master_reviews.parquet
+
+loader:
+  supported_extensions: [".csv", ".xlsx", ".xls"]
+  header_scan_rows: 5
+  sample_rows_for_sniff: 50
+  encoding_candidates: ["utf-8-sig", "utf-8", "latin-1"]
+  # Robust mapping layer (plan section 5). Matched case-insensitively.
+  column_aliases:
+    review_id: ["reviewid", "review_id", "id", "review_id_original", "uid"]
+    review_text: ["content", "review", "review_text", "text", "reviewtext",
+                  "review_description", "review body", "description"]
+    rating: ["score", "rating", "review_rating", "stars", "star", "ratings"]
+    review_date: ["at", "review_date", "date", "posted_date", "timestamp",
+                  "review_date_time", "created_at", "reviewed_at"]
+    review_version: ["reviewcreatedversion", "review_created_version"]
+    app_version: ["appversion", "app_version", "version"]
+    reply_text: ["replycontent", "reply_text", "developer_reply", "response",
+                  "reply", "developer_response"]
+    reply_date: ["repliedat", "reply_date", "replied_at", "response_date"]
+    user_name: ["username", "user_name", "reviewer_name", "author", "name"]
+    thumbs_up: ["thumbsupcount", "thumbs_up", "thumbsup", "likes", "helpful"]
+    user_image: ["userimage", "user_image", "avatar"]
+  # Required for a file to be usable for NLP; otherwise file is inventoried
+  # as unusable and reported (never silently ignored).
+  required_columns: [review_text]
+
+quality:
+  empty_text_action: "keep_flagged"   # keep in master, flag is_empty_text
+  duplicate_id_action: "drop_log"     # drop exact (bank, review_id) dupes
+  duplicate_text_action: "count_only" # count, never drop silently
+  url_regex: "(https?://\\S+|www\\.\\S+)"
+  email_regex: "[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}"
+  phone_regex: "(?:\\+?91[\\s\\-]?)?[6-9]\\d{9}"
+  long_digit_regex: "\\b\\d{9,18}\\b"   # account/transaction-like numbers
+
+preprocessing:
+  keep_emojis: true
+  keep_stopwords: true
+  preserve_tokens: [UPI, KYC, NEFT, IMPS, OTP, ATM, SMS, IFSC, POS, NFC,
+                    RBI, NPCI, EMI, PPF, TDS, MIS]
+  html_unescape: true
+  strip_html_tags: true
+  collapse_whitespace: true
+  max_text_length_chars: 5000
+
+language:
+  min_tokens_for_lexicon: 2
+  hinglish_ratio_threshold: 0.12     # fraction of tokens that are romanized Hindi
+  tanglish_ratio_threshold: 0.10     # fraction that are romanized Tamil
+  script_majority_threshold: 0.25    # share of Indic-script chars to call native
+  use_langdetect_refine: false       # optional sampled refinement (slow)
+  langdetect_sample_frac: 0.02
+
+annotation:
+  target_sample: 12000
+  min_per_bank: 50
+  min_per_rating: 100
+  silver_label_version: silver_rules_v1
+  annotation_version: human_v0_pending
+
+sentiment_rules:                      # deterministic baseline v0 (documented)
+  version: lexicon_rating_v1
+  rating_prior: {1: -1.0, 2: -0.7, 3: 0.0, 4: 0.7, 5: 1.0}
+  rating_prior_weight: 0.30            # lexicon keeps 0.70 weight (s.29 safety)
+
+failure_rules:
+  version: lexicon_v1
+
+risk_rules:
+  version: priority_financial_first_v1  # plan section 14 priority rule
+
+emotion_rules:
+  version: lexicon_v1
+
+severity_rules:
+  version: policy_v1   # 1 suggestion .. 5 financial/security incident
+
+response:
+  buckets_hours: [24, 48, 72]
+  bucket_labels: ["<24h", "24-48h", "48-72h", ">72h"]
+
+pagerank:
+  damping: 0.85
+  min_edge_weight: 1
+
+stats:
+  alpha: 0.05
+  multiple_testing: benjamini_hochberg
+
+early_warning:
+  baseline_months: 6
+  z_threshold: 2.0
+  min_baseline_reviews: 200
+
+streamlit:
+  pii_mask_display: true
+  max_rows_display: 500
+  page_title: "Indian Banking Review Intelligence"

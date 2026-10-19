@@ -1,0 +1,1657 @@
+2026-09-19 20:06:11,205 INFO data_loader: Inventory: 17 files (11 usable) -> /Users/vivekkumar/FDS - PROJECT/data/inventory/data_inventory.csv
+2026-09-19 20:06:11,520 INFO data_loader: Loaded Bank_of_India_reviews.csv          rows=49327
+2026-09-19 20:06:11,528 INFO data_loader: Loaded Bank_of_Maharashtra_reviews.csv    rows=5465
+2026-09-19 20:06:11,553 INFO data_loader: Loaded Central_Bank_of_India_reviews.csv  rows=44432
+2026-09-19 20:06:11,754 INFO data_loader: Loaded Indian_Bank_reviews.csv            rows=65000
+2026-09-19 20:06:11,779 INFO data_loader: Loaded Indian_Overseas_Bank_reviews.csv   rows=19555
+2026-09-19 20:06:12,028 INFO data_loader: Loaded SBI_reviews.csv                    rows=65000
+2026-09-19 20:06:12,193 INFO data_loader: Loaded UCO_Bank_reviews.csv               rows=65000
+2026-09-19 20:06:12,224 INFO data_loader: Loaded Union_Bank_reviews.csv             rows=65000
+2026-09-19 20:06:12,254 INFO data_loader: Loaded Axis_Bank_reviews.csv              rows=9200
+2026-09-19 20:06:12,257 INFO data_loader: Loaded ICICI_Bank_reviews.csv             rows=1000
+2026-09-19 20:06:12,481 INFO data_loader: Loaded IndusInd_Bank_reviews.csv          rows=60400
+2026-09-19 20:24:37,566 INFO data_loader: Inventory: 17 files (11 usable) -> /Users/vivekkumar/FDS - PROJECT/data/inventory/data_inventory.csv
+2026-09-19 20:24:37,756 INFO data_loader: Loaded Bank_of_India_reviews.csv          rows=49327
+2026-09-19 20:24:37,765 INFO data_loader: Loaded Bank_of_Maharashtra_reviews.csv    rows=5465
+2026-09-19 20:24:37,787 INFO data_loader: Loaded Central_Bank_of_India_reviews.csv  rows=44432
+2026-09-19 20:24:37,961 INFO data_loader: Loaded Indian_Bank_reviews.csv            rows=65000
+2026-09-19 20:24:37,975 INFO data_loader: Loaded Indian_Overseas_Bank_reviews.csv   rows=19555
+2026-09-19 20:24:38,218 INFO data_loader: Loaded SBI_reviews.csv                    rows=65000
+2026-09-19 20:24:38,383 INFO data_loader: Loaded UCO_Bank_reviews.csv               rows=65000
+2026-09-19 20:24:38,413 INFO data_loader: Loaded Union_Bank_reviews.csv             rows=65000
+2026-09-19 20:24:38,442 INFO data_loader: Loaded Axis_Bank_reviews.csv              rows=9200
+2026-09-19 20:24:38,445 INFO data_loader: Loaded ICICI_Bank_reviews.csv             rows=1000
+2026-09-19 20:24:38,667 INFO data_loader: Loaded IndusInd_Bank_reviews.csv          rows=60400
+2026-09-19 20:29:49,227 INFO data_loader: Inventory: 17 files (11 usable) -> /Users/vivekkumar/FDS - PROJECT/data/inventory/data_inventory.csv
+2026-09-19 20:29:49,419 INFO data_loader: Loaded Bank_of_India_reviews.csv          rows=49327
+2026-09-19 20:29:49,429 INFO data_loader: Loaded Bank_of_Maharashtra_reviews.csv    rows=5465
+2026-09-19 20:29:49,451 INFO data_loader: Loaded Central_Bank_of_India_reviews.csv  rows=44432
+2026-09-19 20:29:49,625 INFO data_loader: Loaded Indian_Bank_reviews.csv            rows=65000
+2026-09-19 20:29:49,638 INFO data_loader: Loaded Indian_Overseas_Bank_reviews.csv   rows=19555
+2026-09-19 20:29:49,892 INFO data_loader: Loaded SBI_reviews.csv                    rows=65000
+2026-09-19 20:29:50,059 INFO data_loader: Loaded UCO_Bank_reviews.csv               rows=65000
+2026-09-19 20:29:50,089 INFO data_loader: Loaded Union_Bank_reviews.csv             rows=65000
+2026-09-19 20:29:50,119 INFO data_loader: Loaded Axis_Bank_reviews.csv              rows=9200
+2026-09-19 20:29:50,123 INFO data_loader: Loaded ICICI_Bank_reviews.csv             rows=1000
+2026-09-19 20:29:50,348 INFO data_loader: Loaded IndusInd_Bank_reviews.csv          rows=60400
+2026-09-19 20:29:50,738 INFO data_loader: Master dataset: 449379 rows -> /Users/vivekkumar/FDS - PROJECT/data/processed/master_reviews.parquet
+2026-09-19 20:29:50,763 INFO data_loader: Demo sample: 2005 rows -> /Users/vivekkumar/FDS - PROJECT/data/samples/demo_reviews.csv
+2026-09-19 20:33:52,203 INFO pipeline: PIPELINE SAMPLE RUN: 5000 rows
+2026-09-19 20:33:52,203 INFO pipeline: Pipeline start: 5000 rows
+2026-09-19 20:33:52,331 INFO language_detector: Detecting language for 5000 rows ...
+2026-09-19 20:33:52,548 INFO language_detector: Language distribution: {'English': 2555, 'Unknown': 1534, 'Hinglish': 895, 'Hindi': 13, 'Malayalam': 1, 'Tanglish': 1, 'Tamil': 1}
+2026-09-19 20:33:52,571 INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 3049, 'NEGATIVE': 1833, 'NEUTRAL': 118}
+2026-09-19 20:34:57,561 INFO pipeline: PIPELINE SAMPLE RUN: 5000 rows
+2026-09-19 20:34:57,562 INFO pipeline: Pipeline start: 5000 rows
+2026-09-19 20:34:57,688 INFO language_detector: Detecting language for 5000 rows ...
+2026-09-19 20:34:57,899 INFO language_detector: Language distribution: {'English': 2555, 'Unknown': 1534, 'Hinglish': 895, 'Hindi': 13, 'Malayalam': 1, 'Tanglish': 1, 'Tamil': 1}
+2026-09-19 20:34:57,924 INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 3049, 'NEGATIVE': 1833, 'NEUTRAL': 118}
+2026-09-19 20:34:58,136 INFO failure_detector: Failure gate: YES=261 NO=4739 | friction YES=152 | critical=14
+2026-09-19 20:34:58,160 INFO risk_engine: Risk (failure rows only): {<NA>: 4870, 'TECHNICAL_PERFORMANCE_RISK': 122, 'FINANCIAL_SECURITY_RISK': 8} | overlap YES=0
+2026-09-19 20:34:58,312 INFO emotion_engine: Emotion: {'NEUTRAL': 3562, 'JOY': 649, 'ANGER': 487, 'FRUSTRATION': 203, 'CONFUSION': 47, 'TRUST': 25, 'FEAR': 11, 'DISAPPOINTMENT': 10, 'SADNESS': 6}
+2026-09-19 20:34:58,312 INFO aspect_engine: Extracting aspects for 5000 rows ...
+2026-09-19 20:34:58,407 INFO aspect_engine: Reviews with >=1 aspect: 887
+2026-09-19 20:39:45,287 INFO pipeline: PIPELINE SAMPLE RUN: 5000 rows
+2026-09-19 20:39:45,288 INFO pipeline: Pipeline start: 5000 rows
+2026-09-19 20:39:45,416 INFO language_detector: Detecting language for 5000 rows ...
+2026-09-19 20:39:45,629 INFO language_detector: Language distribution: {'English': 2555, 'Unknown': 1534, 'Hinglish': 895, 'Hindi': 13, 'Malayalam': 1, 'Tanglish': 1, 'Tamil': 1}
+2026-09-19 20:39:45,653 INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 3049, 'NEGATIVE': 1833, 'NEUTRAL': 118}
+2026-09-19 20:39:45,901 INFO failure_detector: Failure gate: YES=261 NO=4739 | friction YES=152 | critical=14
+2026-09-19 20:39:45,923 INFO risk_engine: Risk (failure rows only): {<NA>: 4870, 'TECHNICAL_PERFORMANCE_RISK': 122, 'FINANCIAL_SECURITY_RISK': 8} | overlap YES=0
+2026-09-19 20:39:46,059 INFO emotion_engine: Emotion: {'NEUTRAL': 3562, 'JOY': 649, 'ANGER': 487, 'FRUSTRATION': 203, 'CONFUSION': 47, 'TRUST': 25, 'FEAR': 11, 'DISAPPOINTMENT': 10, 'SADNESS': 6}
+2026-09-19 20:39:46,059 INFO aspect_engine: Extracting aspects for 5000 rows ...
+2026-09-19 20:39:46,153 INFO aspect_engine: Reviews with >=1 aspect: 887
+2026-09-19 20:39:46,162 INFO response_engine: Responses: 2729 | median latency: 0.7 h
+2026-09-19 20:39:46,178 INFO pipeline: Master predictions: 5000 rows -> /Users/vivekkumar/FDS - PROJECT/data/predictions/master_predictions.parquet
+2026-09-19 20:42:41,545 INFO pipeline: Pipeline start: 449379 rows
+2026-09-19 20:42:52,597 INFO language_detector: Detecting language for 449379 rows ...
+2026-09-19 20:43:12,273 INFO language_detector: Language distribution: {'English': 227741, 'Unknown': 139230, 'Hinglish': 81385, 'Hindi': 834, 'Tamil': 41, 'Tanglish': 37, 'Telugu': 26, 'Bengali': 26, 'Malayalam': 19, 'Gujarati': 12, 'Other_Indian': 12, 'Kannada': 10, 'Punjabi': 4, 'Oriya': 2}
+2026-09-19 20:43:14,067 INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 278852, 'NEGATIVE': 160034, 'NEUTRAL': 10493}
+2026-09-19 20:43:33,355 INFO failure_detector: Failure gate: YES=22373 NO=427006 | friction YES=13376 | critical=1471
+2026-09-19 20:43:34,947 INFO risk_engine: Risk (failure rows only): {<NA>: 438983, 'TECHNICAL_PERFORMANCE_RISK': 9408, 'FINANCIAL_SECURITY_RISK': 988} | overlap YES=140
+2026-09-19 20:43:47,470 INFO emotion_engine: Emotion: {'NEUTRAL': 319883, 'JOY': 60567, 'ANGER': 43474, 'FRUSTRATION': 17579, 'TRUST': 3012, 'CONFUSION': 2675, 'DISAPPOINTMENT': 986, 'SADNESS': 603, 'FEAR': 600}
+2026-09-19 20:43:47,473 INFO aspect_engine: Extracting aspects for 449379 rows ...
+2026-09-19 20:43:56,665 INFO aspect_engine: Reviews with >=1 aspect: 80439
+2026-09-19 20:43:56,775 INFO response_engine: Responses: 243413 | median latency: 0.7 h
+2026-09-19 20:43:57,655 INFO pipeline: Master predictions: 449379 rows -> /Users/vivekkumar/FDS - PROJECT/data/predictions/master_predictions.parquet
+2026-09-19 20:43:57,904 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=0
+2026-09-19 20:43:57,908 INFO failure_detector: Failure gate: YES=0 NO=1 | friction YES=1 | critical=0
+2026-09-19 20:43:57,912 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=1
+2026-09-19 20:43:57,919 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-19 20:43:57,922 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-19 20:43:57,929 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-19 20:43:57,935 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-19 20:43:57,937 INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 1, 'NEGATIVE': 1}
+2026-09-19 20:43:57,940 INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 1}
+2026-09-19 20:43:57,946 INFO emotion_engine: Emotion: {'ANGER': 1}
+2026-09-19 20:43:57,950 INFO emotion_engine: Emotion: {'JOY': 1}
+2026-09-19 20:43:58,779 INFO pagerank_engine: PageRank computed for 14 views
+2026-09-19 20:44:12,850 INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 1}
+2026-09-19 20:44:12,854 INFO risk_engine: Risk (failure rows only): {'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=0
+2026-09-19 20:44:57,096 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-19 20:46:37,270 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=0
+2026-09-19 20:46:37,274 INFO failure_detector: Failure gate: YES=0 NO=1 | friction YES=1 | critical=0
+2026-09-19 20:46:37,278 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=1
+2026-09-19 20:46:37,285 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-19 20:46:37,288 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-19 20:46:37,305 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-19 20:46:37,309 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-19 20:46:37,312 INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 1, 'NEGATIVE': 1}
+2026-09-19 20:46:37,314 INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 1}
+2026-09-19 20:46:37,318 INFO emotion_engine: Emotion: {'ANGER': 1}
+2026-09-19 20:46:37,321 INFO emotion_engine: Emotion: {'JOY': 1}
+2026-09-19 20:47:22,968 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-19 20:47:38,447 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-19 20:49:47,106 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=0
+2026-09-19 20:49:47,110 INFO failure_detector: Failure gate: YES=0 NO=1 | friction YES=1 | critical=0
+2026-09-19 20:49:47,114 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=1
+2026-09-19 20:49:47,119 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-19 20:49:47,122 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-19 20:49:47,139 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-19 20:49:47,143 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-19 20:49:47,145 INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 1, 'NEGATIVE': 1}
+2026-09-19 20:49:47,147 INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 1}
+2026-09-19 20:49:47,151 INFO emotion_engine: Emotion: {'ANGER': 1}
+2026-09-19 20:49:47,154 INFO emotion_engine: Emotion: {'JOY': 1}
+2026-09-19 20:49:57,644 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-19 20:50:40,373 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=0
+2026-09-19 20:50:40,377 INFO failure_detector: Failure gate: YES=0 NO=1 | friction YES=1 | critical=0
+2026-09-19 20:50:40,380 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=1
+2026-09-19 20:50:40,388 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-19 20:50:40,391 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-19 20:50:40,408 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-19 20:50:40,412 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-19 20:50:40,415 INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 1, 'NEGATIVE': 1}
+2026-09-19 20:50:40,417 INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 1}
+2026-09-19 20:50:40,421 INFO emotion_engine: Emotion: {'ANGER': 1}
+2026-09-19 20:50:40,424 INFO emotion_engine: Emotion: {'JOY': 1}
+2026-09-19 20:50:58,652 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-19 20:50:58,654 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-19 20:51:37,881 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=0
+2026-09-19 20:51:37,885 INFO failure_detector: Failure gate: YES=0 NO=1 | friction YES=1 | critical=0
+2026-09-19 20:51:37,888 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=1
+2026-09-19 20:51:37,897 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-19 20:51:37,913 INFO risk_engine: Risk (failure rows only): {'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=0
+2026-09-19 20:51:37,916 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-19 20:51:37,918 INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 1, 'NEGATIVE': 1}
+2026-09-19 20:51:37,920 INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 1}
+2026-09-19 20:51:37,924 INFO emotion_engine: Emotion: {'ANGER': 1}
+2026-09-19 20:51:37,927 INFO emotion_engine: Emotion: {'JOY': 1}
+2026-09-19 20:51:52,596 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-19 20:58:07,611 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=0
+2026-09-19 20:58:07,616 INFO failure_detector: Failure gate: YES=0 NO=1 | friction YES=1 | critical=0
+2026-09-19 20:58:07,619 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=1
+2026-09-19 20:58:07,627 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-19 20:58:07,644 INFO risk_engine: Risk (failure rows only): {'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=0
+2026-09-19 20:58:07,647 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-19 20:58:07,649 INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 1, 'NEGATIVE': 1}
+2026-09-19 20:58:07,651 INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 1}
+2026-09-19 20:58:07,655 INFO emotion_engine: Emotion: {'ANGER': 1}
+2026-09-19 20:58:07,658 INFO emotion_engine: Emotion: {'JOY': 1}
+2026-09-19 20:58:35,506 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-19 21:03:28,463 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=0
+2026-09-19 21:03:28,466 INFO failure_detector: Failure gate: YES=0 NO=1 | friction YES=1 | critical=0
+2026-09-19 21:03:28,470 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=1
+2026-09-19 21:03:28,474 INFO risk_engine: Risk (failure rows only): {'FINANCIAL_SECURITY_RISK': 1} | overlap YES=1
+2026-09-19 21:03:28,481 INFO risk_engine: Risk (failure rows only): {'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=0
+2026-09-19 21:03:28,488 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-19 21:03:28,494 INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 1, 'NEGATIVE': 1}
+2026-09-19 21:03:28,498 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 1}
+2026-09-19 21:03:28,503 INFO emotion_engine: Emotion: {'ANGER': 1}
+2026-09-19 21:03:28,509 INFO emotion_engine: Emotion: {'JOY': 1}
+2026-09-19 21:03:38,847 INFO language_detector: Detecting language for 5 rows ...
+2026-09-19 21:03:38,849 INFO language_detector: Language distribution: {'English': 2, 'Hinglish': 1, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:03:38,852 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 3, 'POSITIVE': 2}
+2026-09-19 21:03:38,856 INFO failure_detector: Failure gate: YES=1 NO=4 | friction YES=0 | critical=1
+2026-09-19 21:03:38,859 INFO risk_engine: Risk (failure rows only): {<NA>: 4, 'FINANCIAL_SECURITY_RISK': 1} | overlap YES=1
+2026-09-19 21:03:38,862 INFO emotion_engine: Emotion: {'FRUSTRATION': 2, 'NEUTRAL': 2, 'ANGER': 1}
+2026-09-19 21:03:38,862 INFO aspect_engine: Extracting aspects for 5 rows ...
+2026-09-19 21:03:38,862 INFO aspect_engine: Reviews with >=1 aspect: 4
+2026-09-19 21:03:38,867 INFO response_engine: Responses: 2 | median latency: 52.0 h
+2026-09-19 21:03:38,874 WARNING pagerank_engine: PageRank skipped for global (too few aspects)
+2026-09-19 21:03:38,878 WARNING pagerank_engine: PageRank skipped for group_GOVERNMENT (too few aspects)
+2026-09-19 21:03:38,878 WARNING pagerank_engine: PageRank skipped for group_PRIVATE (too few aspects)
+2026-09-19 21:03:38,880 WARNING pagerank_engine: PageRank skipped for bank_HDFC (too few aspects)
+2026-09-19 21:03:38,880 WARNING pagerank_engine: PageRank skipped for bank_ICICI (too few aspects)
+2026-09-19 21:03:38,880 WARNING pagerank_engine: PageRank skipped for bank_PNB (too few aspects)
+2026-09-19 21:03:38,881 WARNING pagerank_engine: PageRank skipped for bank_SBI (too few aspects)
+2026-09-19 21:03:38,881 INFO pagerank_engine: PageRank computed for 0 views
+2026-09-19 21:03:52,563 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:03:52,564 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:03:52,566 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:03:52,572 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:03:52,575 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:03:52,578 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:03:52,578 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:03:52,578 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:03:52,580 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:03:52,586 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:03:52,587 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:03:52,589 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:03:52,592 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:03:52,595 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:03:52,598 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:03:52,598 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:03:52,598 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:03:52,600 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:03:52,606 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:03:52,607 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:03:52,609 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:03:52,612 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:03:52,615 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:03:52,618 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:03:52,618 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:03:52,618 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:03:52,619 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:03:52,630 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:03:52,630 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:03:52,632 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:03:52,635 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:03:52,638 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:03:52,641 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:03:52,641 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:03:52,641 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:03:52,643 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:03:52,646 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:03:52,647 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:03:52,648 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:03:52,652 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:03:52,654 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:03:52,657 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:03:52,657 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:03:52,658 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:03:52,659 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:03:52,662 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:03:52,662 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:03:52,664 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:03:52,668 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:03:52,674 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:03:52,682 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:03:52,682 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:03:52,684 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:03:52,686 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:03:52,695 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:03:52,697 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:03:52,701 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:03:52,705 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:03:52,708 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:03:52,711 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:03:52,711 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:03:52,711 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:03:52,713 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:03:52,723 INFO annotation: Annotation sample: 5 rows -> /Users/vivekkumar/FDS - PROJECT/data/annotations/annotation_sample.csv
+2026-09-19 21:03:58,137 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=0
+2026-09-19 21:03:58,141 INFO failure_detector: Failure gate: YES=0 NO=1 | friction YES=1 | critical=0
+2026-09-19 21:03:58,144 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=1
+2026-09-19 21:03:58,148 INFO risk_engine: Risk (failure rows only): {'FINANCIAL_SECURITY_RISK': 1} | overlap YES=1
+2026-09-19 21:03:58,151 INFO risk_engine: Risk (failure rows only): {'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=0
+2026-09-19 21:03:58,154 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-19 21:03:58,156 INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 1, 'NEGATIVE': 1}
+2026-09-19 21:03:58,159 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 1}
+2026-09-19 21:03:58,162 INFO emotion_engine: Emotion: {'ANGER': 1}
+2026-09-19 21:03:58,165 INFO emotion_engine: Emotion: {'JOY': 1}
+2026-09-19 21:05:10,227 INFO risk_engine: Risk (failure rows only): {'FINANCIAL_SECURITY_RISK': 1} | overlap YES=1
+2026-09-19 21:05:23,838 INFO risk_engine: Risk (failure rows only): {'FINANCIAL_SECURITY_RISK': 1} | overlap YES=1
+2026-09-19 21:05:33,262 INFO risk_engine: Risk (failure rows only): {'FINANCIAL_SECURITY_RISK': 1} | overlap YES=1
+2026-09-19 21:05:47,151 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:05:47,153 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:05:47,156 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:05:47,162 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:05:47,165 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:05:47,168 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:05:47,168 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:05:47,169 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:05:47,173 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:05:47,179 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:05:47,180 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:05:47,182 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:05:47,185 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:05:47,188 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:05:47,191 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:05:47,191 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:05:47,191 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:05:47,193 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:05:47,202 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:05:47,203 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:05:47,205 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:05:47,208 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:05:47,211 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:05:47,214 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:05:47,214 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:05:47,214 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:05:47,216 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:05:47,225 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:05:47,226 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:05:47,228 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:05:47,231 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:05:47,234 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:05:47,237 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:05:47,237 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:05:47,237 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:05:47,238 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:05:47,242 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:05:47,243 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:05:47,244 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:05:47,248 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:05:47,250 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:05:47,253 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:05:47,253 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:05:47,254 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:05:47,255 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:05:47,257 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:05:47,258 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:05:47,259 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:05:47,263 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:05:47,266 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:05:47,268 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:05:47,268 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:05:47,269 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:05:47,270 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:05:47,278 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:05:47,279 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:05:47,280 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:05:47,284 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:05:47,287 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:05:47,290 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:05:47,290 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:05:47,291 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:05:47,292 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:05:47,300 INFO annotation: Annotation sample: 5 rows -> /Users/vivekkumar/FDS - PROJECT/data/annotations/annotation_sample.csv
+2026-09-19 21:05:47,921 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=0
+2026-09-19 21:05:47,924 INFO failure_detector: Failure gate: YES=0 NO=1 | friction YES=1 | critical=0
+2026-09-19 21:05:47,927 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=1
+2026-09-19 21:05:47,930 INFO risk_engine: Risk (failure rows only): {'FINANCIAL_SECURITY_RISK': 1} | overlap YES=1
+2026-09-19 21:05:47,934 INFO risk_engine: Risk (failure rows only): {'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=0
+2026-09-19 21:05:47,937 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-19 21:05:47,939 INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 1, 'NEGATIVE': 1}
+2026-09-19 21:05:47,941 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 1}
+2026-09-19 21:05:47,944 INFO emotion_engine: Emotion: {'ANGER': 1}
+2026-09-19 21:05:47,947 INFO emotion_engine: Emotion: {'JOY': 1}
+2026-09-19 21:06:01,453 INFO pipeline: Pipeline start: 449379 rows
+2026-09-19 21:06:11,829 INFO language_detector: Detecting language for 449379 rows ...
+2026-09-19 21:06:16,533 INFO language_detector: Detecting language for 449367 rows ...
+2026-09-19 21:06:30,730 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:06:30,732 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:06:30,736 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:06:30,742 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:06:30,746 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:06:30,750 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:06:30,750 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:06:30,751 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:06:30,755 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:06:30,765 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:06:30,766 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:06:30,768 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:06:30,772 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:06:30,775 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:06:30,778 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:06:30,778 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:06:30,778 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:06:30,780 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:06:30,792 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:06:30,793 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:06:30,795 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:06:30,799 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:06:30,802 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:06:30,805 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:06:30,805 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:06:30,805 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:06:30,807 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:06:30,817 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:06:30,818 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:06:30,819 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:06:30,823 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:06:30,826 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:06:30,829 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:06:30,829 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:06:30,829 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:06:30,831 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:06:30,835 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:06:30,836 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:06:30,838 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:06:30,841 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:06:30,844 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:06:30,847 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:06:30,847 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:06:30,848 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:06:30,850 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:06:30,852 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:06:30,853 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:06:30,855 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:06:30,859 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:06:30,862 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:06:30,865 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:06:30,865 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:06:30,866 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:06:30,867 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:06:30,876 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:06:30,877 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:06:30,879 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:06:30,883 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:06:30,886 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:06:30,889 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:06:30,889 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:06:30,890 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:06:30,891 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:06:30,900 INFO annotation: Annotation sample: 5 rows -> /Users/vivekkumar/FDS - PROJECT/data/annotations/annotation_sample.csv
+2026-09-19 21:06:31,375 INFO language_detector: Language distribution: {'English': 227741, 'Unknown': 135901, 'Hinglish': 81385, 'Hindi': 3192, 'Tamil': 372, 'Telugu': 230, 'Bengali': 204, 'Kannada': 95, 'Gujarati': 84, 'Malayalam': 74, 'Tanglish': 37, 'Oriya': 31, 'Punjabi': 21, 'Other_Indian': 12}
+2026-09-19 21:06:31,662 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=0
+2026-09-19 21:06:31,666 INFO failure_detector: Failure gate: YES=0 NO=1 | friction YES=1 | critical=0
+2026-09-19 21:06:31,669 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=1
+2026-09-19 21:06:31,673 INFO risk_engine: Risk (failure rows only): {'FINANCIAL_SECURITY_RISK': 1} | overlap YES=1
+2026-09-19 21:06:31,676 INFO risk_engine: Risk (failure rows only): {'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=0
+2026-09-19 21:06:31,679 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-19 21:06:31,682 INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 1, 'NEGATIVE': 1}
+2026-09-19 21:06:31,684 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 1}
+2026-09-19 21:06:31,688 INFO emotion_engine: Emotion: {'ANGER': 1}
+2026-09-19 21:06:31,692 INFO emotion_engine: Emotion: {'JOY': 1}
+2026-09-19 21:06:33,259 INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 276971, 'NEGATIVE': 154603, 'NEUTRAL': 17805}
+2026-09-19 21:06:36,199 INFO language_detector: Language distribution: {'English': 227741, 'Unknown': 135889, 'Hinglish': 81385, 'Hindi': 3192, 'Tamil': 372, 'Telugu': 230, 'Bengali': 204, 'Kannada': 95, 'Gujarati': 84, 'Malayalam': 74, 'Tanglish': 37, 'Oriya': 31, 'Punjabi': 21, 'Other_Indian': 12}
+2026-09-19 21:06:36,564 INFO annotation: Annotation sample: 12513 rows -> /Users/vivekkumar/FDS - PROJECT/data/annotations/annotation_sample.csv
+2026-09-19 21:06:36,919 INFO language_detector: Detecting language for 12513 rows ...
+2026-09-19 21:06:43,613 INFO pipeline: Pipeline start: 449379 rows
+2026-09-19 21:06:51,568 INFO failure_detector: Failure gate: YES=25028 NO=424351 | friction YES=13380 | critical=1667
+2026-09-19 21:06:53,171 INFO language_detector: Detecting language for 449379 rows ...
+2026-09-19 21:06:53,383 INFO risk_engine: Risk (failure rows only): {<NA>: 433013, 'TECHNICAL_PERFORMANCE_RISK': 14844, 'FINANCIAL_SECURITY_RISK': 1522} | overlap YES=335
+2026-09-19 21:07:06,155 INFO emotion_engine: Emotion: {'NEUTRAL': 319728, 'JOY': 60558, 'ANGER': 43540, 'FRUSTRATION': 17571, 'TRUST': 3072, 'CONFUSION': 2668, 'DISAPPOINTMENT': 985, 'FEAR': 654, 'SADNESS': 603}
+2026-09-19 21:07:06,161 INFO aspect_engine: Extracting aspects for 449379 rows ...
+2026-09-19 21:07:11,827 INFO language_detector: Language distribution: {'English': 227741, 'Unknown': 135901, 'Hinglish': 81385, 'Hindi': 3192, 'Tamil': 372, 'Telugu': 230, 'Bengali': 204, 'Kannada': 95, 'Gujarati': 84, 'Malayalam': 74, 'Tanglish': 37, 'Oriya': 31, 'Punjabi': 21, 'Other_Indian': 12}
+2026-09-19 21:07:14,024 INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 276971, 'NEGATIVE': 154603, 'NEUTRAL': 17805}
+2026-09-19 21:07:15,175 INFO aspect_engine: Reviews with >=1 aspect: 82716
+2026-09-19 21:07:15,267 INFO response_engine: Responses: 243413 | median latency: 0.7 h
+2026-09-19 21:07:15,902 INFO pipeline: Master predictions: 449379 rows -> /Users/vivekkumar/FDS - PROJECT/data/predictions/master_predictions.parquet
+2026-09-19 21:07:16,737 INFO pagerank_engine: PageRank computed for 14 views
+2026-09-19 21:07:21,389 INFO pipeline: Report tables written to /Users/vivekkumar/FDS - PROJECT/reports/tables
+2026-09-19 21:07:32,034 INFO failure_detector: Failure gate: YES=25028 NO=424351 | friction YES=13380 | critical=1667
+2026-09-19 21:07:33,702 INFO risk_engine: Risk (failure rows only): {<NA>: 433013, 'TECHNICAL_PERFORMANCE_RISK': 14844, 'FINANCIAL_SECURITY_RISK': 1522} | overlap YES=335
+2026-09-19 21:07:44,507 INFO emotion_engine: Emotion: {'NEUTRAL': 319728, 'JOY': 60558, 'ANGER': 43540, 'FRUSTRATION': 17571, 'TRUST': 3072, 'CONFUSION': 2668, 'DISAPPOINTMENT': 985, 'FEAR': 654, 'SADNESS': 603}
+2026-09-19 21:07:44,512 INFO aspect_engine: Extracting aspects for 449379 rows ...
+2026-09-19 21:07:52,110 INFO aspect_engine: Reviews with >=1 aspect: 82716
+2026-09-19 21:07:52,216 INFO response_engine: Responses: 243413 | median latency: 0.7 h
+2026-09-19 21:07:52,833 INFO pipeline: Master predictions: 449379 rows -> /Users/vivekkumar/FDS - PROJECT/data/predictions/master_predictions.parquet
+2026-09-19 21:07:53,636 INFO pagerank_engine: PageRank computed for 14 views
+2026-09-19 21:07:58,720 INFO pipeline: Report tables written to /Users/vivekkumar/FDS - PROJECT/reports/tables
+2026-09-19 21:11:36,336 INFO language_detector: Detecting language for 449367 rows ...
+2026-09-19 21:11:54,659 INFO language_detector: Language distribution: {'English': 227741, 'Unknown': 135889, 'Hinglish': 81385, 'Hindi': 3192, 'Tamil': 372, 'Telugu': 230, 'Bengali': 204, 'Kannada': 95, 'Gujarati': 84, 'Malayalam': 74, 'Tanglish': 37, 'Oriya': 31, 'Punjabi': 21, 'Other_Indian': 12}
+2026-09-19 21:11:55,023 INFO annotation: Annotation sample: 12513 rows -> /Users/vivekkumar/FDS - PROJECT/data/annotations/annotation_sample.csv
+2026-09-19 21:11:55,354 INFO language_detector: Detecting language for 12513 rows ...
+2026-09-19 21:11:55,856 INFO language_detector: Language distribution: {'English': 6140, 'Unknown': 3735, 'Hinglish': 2259, 'Hindi': 284, 'Tamil': 37, 'Telugu': 21, 'Bengali': 18, 'Gujarati': 7, 'Kannada': 7, 'Punjabi': 3, 'Malayalam': 1, 'Other_Indian': 1}
+2026-09-19 21:11:55,915 INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 7589, 'NEGATIVE': 4326, 'NEUTRAL': 598}
+2026-09-19 21:11:56,410 INFO failure_detector: Failure gate: YES=695 NO=11818 | friction YES=386 | critical=35
+2026-09-19 21:11:56,469 INFO risk_engine: Risk (failure rows only): {<NA>: 12040, 'TECHNICAL_PERFORMANCE_RISK': 437, 'FINANCIAL_SECURITY_RISK': 36} | overlap YES=6
+2026-09-19 21:11:56,798 INFO emotion_engine: Emotion: {'NEUTRAL': 8989, 'JOY': 1671, 'ANGER': 1106, 'FRUSTRATION': 505, 'TRUST': 88, 'CONFUSION': 86, 'DISAPPOINTMENT': 31, 'SADNESS': 20, 'FEAR': 17}
+2026-09-19 21:11:56,798 INFO aspect_engine: Extracting aspects for 12513 rows ...
+2026-09-19 21:11:57,026 INFO aspect_engine: Reviews with >=1 aspect: 2355
+2026-09-19 21:11:57,137 INFO annotation: Silver annotation set: 12513 rows -> /Users/vivekkumar/FDS - PROJECT/data/annotations/annotation_sample_silver.csv
+2026-09-19 21:12:32,501 INFO train: Task sentiment: 12513 rows from annotation_sample_silver.csv | labels: {'POSITIVE': 7589, 'NEGATIVE': 4326, 'NEUTRAL': 598}
+2026-09-19 21:16:02,675 INFO train: Task sentiment: 12513 rows from annotation_sample_silver.csv | labels: {'POSITIVE': 7589, 'NEGATIVE': 4326, 'NEUTRAL': 598}
+2026-09-19 21:18:20,855 INFO data_validator: Quality report: total=449379 | empty=12 | dup_text=240008
+2026-09-19 21:20:43,313 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:20:43,314 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:20:43,317 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:20:43,322 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:20:43,326 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:20:43,329 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:20:43,329 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:20:43,329 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:20:43,332 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:20:43,340 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:20:43,341 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:20:43,343 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:20:43,346 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:20:43,349 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:20:43,352 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:20:43,352 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:20:43,353 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:20:43,354 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:20:43,362 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:20:43,363 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:20:43,365 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:20:43,368 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:20:43,371 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:20:43,374 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:20:43,374 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:20:43,375 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:20:43,377 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:20:43,387 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:20:43,388 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:20:43,389 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:20:43,393 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:20:43,396 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:20:43,399 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:20:43,399 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:20:43,399 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:20:43,401 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:20:43,405 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:20:43,405 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:20:43,407 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:20:43,410 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:20:43,413 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:20:43,416 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:20:43,416 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:20:43,417 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:20:43,418 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:20:43,420 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:20:43,421 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:20:43,423 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:20:43,426 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:20:43,429 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:20:43,431 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:20:43,431 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:20:43,432 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:20:43,433 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:20:43,439 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:20:43,439 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:20:43,441 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:20:43,444 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:20:43,447 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:20:43,450 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:20:43,450 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:20:43,450 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:20:43,452 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:20:43,458 INFO annotation: Annotation sample: 5 rows -> /Users/vivekkumar/FDS - PROJECT/data/annotations/annotation_sample.csv
+2026-09-19 21:20:43,911 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=0
+2026-09-19 21:20:43,914 INFO failure_detector: Failure gate: YES=0 NO=1 | friction YES=1 | critical=0
+2026-09-19 21:20:43,917 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=1
+2026-09-19 21:20:43,921 INFO risk_engine: Risk (failure rows only): {'FINANCIAL_SECURITY_RISK': 1} | overlap YES=1
+2026-09-19 21:20:43,925 INFO risk_engine: Risk (failure rows only): {'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=0
+2026-09-19 21:20:43,929 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-19 21:20:43,931 INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 1, 'NEGATIVE': 1}
+2026-09-19 21:20:43,933 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 1}
+2026-09-19 21:20:43,936 INFO emotion_engine: Emotion: {'ANGER': 1}
+2026-09-19 21:20:43,939 INFO emotion_engine: Emotion: {'JOY': 1}
+2026-09-19 21:21:04,148 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:21:04,149 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:21:04,151 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:21:04,156 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:21:04,159 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:21:04,162 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:21:04,162 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:21:04,162 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:21:04,164 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:21:04,170 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:21:04,170 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:21:04,172 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:21:04,176 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:21:04,179 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:21:04,181 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:21:04,182 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:21:04,182 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:21:04,184 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:21:04,190 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:21:04,191 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:21:04,193 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:21:04,197 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:21:04,199 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:21:04,202 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:21:04,202 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:21:04,203 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:21:04,204 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:21:04,214 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:21:04,214 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:21:04,216 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:21:04,220 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:21:04,222 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:21:04,225 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:21:04,225 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:21:04,226 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:21:04,227 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:21:04,230 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:21:04,231 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:21:04,233 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:21:04,236 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:21:04,239 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:21:04,242 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:21:04,242 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:21:04,242 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:21:04,244 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:21:04,246 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:21:04,247 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:21:04,249 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:21:04,252 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:21:04,255 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:21:04,258 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:21:04,258 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:21:04,258 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:21:04,259 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:21:04,265 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:21:04,266 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:21:04,267 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:21:04,271 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:21:04,274 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:21:04,276 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:21:04,276 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:21:04,277 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:21:04,278 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:21:04,285 INFO annotation: Annotation sample: 5 rows -> /Users/vivekkumar/FDS - PROJECT/data/annotations/annotation_sample.csv
+2026-09-19 21:21:04,759 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=0
+2026-09-19 21:21:04,763 INFO failure_detector: Failure gate: YES=0 NO=1 | friction YES=1 | critical=0
+2026-09-19 21:21:04,766 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=1
+2026-09-19 21:21:04,769 INFO risk_engine: Risk (failure rows only): {'FINANCIAL_SECURITY_RISK': 1} | overlap YES=1
+2026-09-19 21:21:04,772 INFO risk_engine: Risk (failure rows only): {'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=0
+2026-09-19 21:21:04,776 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-19 21:21:04,777 INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 1, 'NEGATIVE': 1}
+2026-09-19 21:21:04,779 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 1}
+2026-09-19 21:21:04,783 INFO emotion_engine: Emotion: {'ANGER': 1}
+2026-09-19 21:21:04,785 INFO emotion_engine: Emotion: {'JOY': 1}
+2026-09-19 21:21:19,983 INFO model_registry: Metrics recorded -> /Users/vivekkumar/FDS - PROJECT/reports/model_results/sentiment_distilbert-base-uncased_20260919_211602.json
+2026-09-19 21:21:19,984 INFO train: [sentiment/distilbert-base-uncased] macro_f1=0.4936 (smoke=True, split=random)
+2026-09-19 21:24:15,500 INFO language_detector: Detecting language for 449367 rows ...
+2026-09-19 21:24:33,937 INFO language_detector: Language distribution: {'English': 227741, 'Unknown': 135889, 'Hinglish': 81385, 'Hindi': 3192, 'Tamil': 372, 'Telugu': 230, 'Bengali': 204, 'Kannada': 95, 'Gujarati': 84, 'Malayalam': 74, 'Tanglish': 37, 'Oriya': 31, 'Punjabi': 21, 'Other_Indian': 12}
+2026-09-19 21:24:34,202 INFO annotation: Replacing human sample: 5 -> 12513 rows (/Users/vivekkumar/FDS - PROJECT/data/annotations/annotation_sample.csv)
+2026-09-19 21:24:34,277 INFO annotation: Annotation sample: 12513 rows -> /Users/vivekkumar/FDS - PROJECT/data/annotations/annotation_sample.csv
+2026-09-19 21:24:34,608 INFO language_detector: Detecting language for 12513 rows ...
+2026-09-19 21:24:35,109 INFO language_detector: Language distribution: {'English': 6140, 'Unknown': 3735, 'Hinglish': 2259, 'Hindi': 284, 'Tamil': 37, 'Telugu': 21, 'Bengali': 18, 'Gujarati': 7, 'Kannada': 7, 'Punjabi': 3, 'Malayalam': 1, 'Other_Indian': 1}
+2026-09-19 21:24:35,164 INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 7589, 'NEGATIVE': 4326, 'NEUTRAL': 598}
+2026-09-19 21:24:35,665 INFO failure_detector: Failure gate: YES=695 NO=11818 | friction YES=386 | critical=35
+2026-09-19 21:24:35,721 INFO risk_engine: Risk (failure rows only): {<NA>: 12040, 'TECHNICAL_PERFORMANCE_RISK': 437, 'FINANCIAL_SECURITY_RISK': 36} | overlap YES=6
+2026-09-19 21:24:36,067 INFO emotion_engine: Emotion: {'NEUTRAL': 8989, 'JOY': 1671, 'ANGER': 1106, 'FRUSTRATION': 505, 'TRUST': 88, 'CONFUSION': 86, 'DISAPPOINTMENT': 31, 'SADNESS': 20, 'FEAR': 17}
+2026-09-19 21:24:36,067 INFO aspect_engine: Extracting aspects for 12513 rows ...
+2026-09-19 21:24:36,296 INFO aspect_engine: Reviews with >=1 aspect: 2355
+2026-09-19 21:24:36,409 INFO annotation: Silver annotation set: 12513 rows -> /Users/vivekkumar/FDS - PROJECT/data/annotations/annotation_sample_silver.csv
+2026-09-19 21:25:57,255 INFO annotation: DEMO MODE: 2005 demo rows -> /Users/vivekkumar/FDS - PROJECT/data/samples/annotations_demo
+2026-09-19 21:25:57,304 INFO language_detector: Detecting language for 2005 rows ...
+2026-09-19 21:25:57,391 INFO language_detector: Language distribution: {'English': 1021, 'Unknown': 624, 'Hinglish': 347, 'Hindi': 9, 'Tamil': 3, 'Malayalam': 1}
+2026-09-19 21:25:57,449 INFO annotation: Annotation sample: 2005 rows -> /Users/vivekkumar/FDS - PROJECT/data/samples/annotations_demo/annotation_sample.csv
+2026-09-19 21:25:57,507 INFO language_detector: Detecting language for 2005 rows ...
+2026-09-19 21:25:57,591 INFO language_detector: Language distribution: {'English': 1021, 'Unknown': 624, 'Hinglish': 347, 'Hindi': 9, 'Tamil': 3, 'Malayalam': 1}
+2026-09-19 21:25:57,601 INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 1240, 'NEGATIVE': 684, 'NEUTRAL': 81}
+2026-09-19 21:25:57,682 INFO failure_detector: Failure gate: YES=102 NO=1903 | friction YES=69 | critical=5
+2026-09-19 21:25:57,693 INFO risk_engine: Risk (failure rows only): {<NA>: 1938, 'TECHNICAL_PERFORMANCE_RISK': 61, 'FINANCIAL_SECURITY_RISK': 6} | overlap YES=3
+2026-09-19 21:25:57,746 INFO emotion_engine: Emotion: {'NEUTRAL': 1418, 'JOY': 254, 'ANGER': 207, 'FRUSTRATION': 92, 'TRUST': 16, 'CONFUSION': 7, 'DISAPPOINTMENT': 5, 'SADNESS': 4, 'FEAR': 2}
+2026-09-19 21:25:57,747 INFO aspect_engine: Extracting aspects for 2005 rows ...
+2026-09-19 21:25:57,782 INFO aspect_engine: Reviews with >=1 aspect: 377
+2026-09-19 21:25:57,799 INFO annotation: Silver annotation set: 2005 rows -> /Users/vivekkumar/FDS - PROJECT/data/samples/annotations_demo/annotation_sample_silver.csv
+2026-09-19 21:32:00,278 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:32:00,279 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:32:00,281 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:32:00,285 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:32:00,288 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:32:00,291 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:32:00,291 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:32:00,292 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:32:00,293 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:32:00,299 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:32:00,299 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:32:00,301 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:32:00,304 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:32:00,307 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:32:00,310 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:32:00,310 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:32:00,311 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:32:00,312 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:32:00,318 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:32:00,319 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:32:00,320 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:32:00,323 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:32:00,326 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:32:00,329 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:32:00,329 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:32:00,329 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:32:00,331 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:32:00,339 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:32:00,340 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:32:00,342 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:32:00,345 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:32:00,348 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:32:00,351 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:32:00,351 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:32:00,351 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:32:00,352 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:32:00,356 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:32:00,356 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:32:00,358 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:32:00,361 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:32:00,364 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:32:00,366 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:32:00,366 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:32:00,367 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:32:00,368 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:32:00,370 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:32:00,371 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:32:00,373 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:32:00,376 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:32:00,379 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:32:00,382 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:32:00,382 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:32:00,382 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:32:00,383 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:32:00,388 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:32:00,389 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:32:00,391 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:32:00,394 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:32:00,397 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:32:00,399 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:32:00,399 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:32:00,400 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:32:00,401 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:32:00,414 WARNING annotation: OVERWRITE GUARD: existing human sample has 20461 rows but new sample has only 5 (/Users/vivekkumar/FDS - PROJECT/data/annotations/annotation_sample.csv). Writing anyway is dangerous; pass force=True or out_dir to acknowledge. Proceeding with write.
+2026-09-19 21:32:00,416 INFO annotation: Annotation sample: 5 rows -> /Users/vivekkumar/FDS - PROJECT/data/annotations/annotation_sample.csv
+2026-09-19 21:32:00,857 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=0
+2026-09-19 21:32:00,860 INFO failure_detector: Failure gate: YES=0 NO=1 | friction YES=1 | critical=0
+2026-09-19 21:32:00,863 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=1
+2026-09-19 21:32:00,866 INFO risk_engine: Risk (failure rows only): {'FINANCIAL_SECURITY_RISK': 1} | overlap YES=1
+2026-09-19 21:32:00,869 INFO risk_engine: Risk (failure rows only): {'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=0
+2026-09-19 21:32:00,872 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-19 21:32:00,874 INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 1, 'NEGATIVE': 1}
+2026-09-19 21:32:00,876 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 1}
+2026-09-19 21:32:00,879 INFO emotion_engine: Emotion: {'ANGER': 1}
+2026-09-19 21:32:00,882 INFO emotion_engine: Emotion: {'JOY': 1}
+2026-09-19 21:34:54,600 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:34:54,601 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:34:54,603 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:34:54,607 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:34:54,610 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:34:54,613 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:34:54,613 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:34:54,613 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:34:54,615 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:34:54,621 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:34:54,622 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:34:54,623 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:34:54,627 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:34:54,630 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:34:54,633 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:34:54,633 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:34:54,633 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:34:54,634 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:34:54,641 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:34:54,642 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:34:54,643 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:34:54,647 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:34:54,649 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:34:54,652 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:34:54,652 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:34:54,653 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:34:54,654 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:34:54,665 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:34:54,665 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:34:54,667 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:34:54,670 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:34:54,673 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:34:54,676 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:34:54,676 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:34:54,676 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:34:54,678 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:34:54,682 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:34:54,682 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:34:54,684 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:34:54,687 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:34:54,690 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:34:54,693 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:34:54,693 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:34:54,693 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:34:54,694 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:34:54,697 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:34:54,698 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:34:54,700 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:34:54,703 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:34:54,706 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:34:54,708 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:34:54,708 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:34:54,709 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:34:54,710 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:34:54,716 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:34:54,717 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:34:54,718 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:34:54,722 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:34:54,724 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:34:54,727 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:34:54,727 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:34:54,728 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:34:54,729 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:34:54,735 INFO annotation: Annotation sample: 5 rows -> /private/var/folders/t3/p10gzplx5pqg8y7hzqsqq3100000gn/T/pytest-of-vivekkumar/pytest-0/test_annotation_sample_buildin0/annotation_sample.csv
+2026-09-19 21:34:54,737 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:34:54,738 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:34:54,740 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:34:54,743 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:34:54,746 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:34:54,749 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:34:54,749 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:34:54,749 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:34:54,750 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:34:54,756 WARNING annotation: OVERWRITE GUARD: existing human sample has 50 rows but new sample has only 5 (/private/var/folders/t3/p10gzplx5pqg8y7hzqsqq3100000gn/T/pytest-of-vivekkumar/pytest-0/test_annotation_overwrite_guar0/annotation_sample.csv). Writing anyway is dangerous; pass force=True or out_dir to acknowledge. Proceeding with write.
+2026-09-19 21:34:54,757 INFO annotation: Annotation sample: 5 rows -> /private/var/folders/t3/p10gzplx5pqg8y7hzqsqq3100000gn/T/pytest-of-vivekkumar/pytest-0/test_annotation_overwrite_guar0/annotation_sample.csv
+2026-09-19 21:34:54,759 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:34:54,760 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:34:54,761 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:34:54,765 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:34:54,767 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:34:54,770 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:34:54,770 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:34:54,771 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:34:54,772 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:34:54,778 INFO annotation: Annotation sample: 5 rows -> /private/var/folders/t3/p10gzplx5pqg8y7hzqsqq3100000gn/T/pytest-of-vivekkumar/pytest-0/test_annotation_demo_writes_on0/project_io/annotations_dir/annotation_sample.csv
+2026-09-19 21:34:55,154 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=0
+2026-09-19 21:34:55,158 INFO failure_detector: Failure gate: YES=0 NO=1 | friction YES=1 | critical=0
+2026-09-19 21:34:55,162 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=1
+2026-09-19 21:34:55,165 INFO risk_engine: Risk (failure rows only): {'FINANCIAL_SECURITY_RISK': 1} | overlap YES=1
+2026-09-19 21:34:55,169 INFO risk_engine: Risk (failure rows only): {'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=0
+2026-09-19 21:34:55,173 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-19 21:34:55,175 INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 1, 'NEGATIVE': 1}
+2026-09-19 21:34:55,178 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 1}
+2026-09-19 21:34:55,181 INFO emotion_engine: Emotion: {'ANGER': 1}
+2026-09-19 21:34:55,185 INFO emotion_engine: Emotion: {'JOY': 1}
+2026-09-19 21:38:33,601 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:38:33,602 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:38:33,605 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:38:33,609 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:38:33,611 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:38:33,614 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:38:33,614 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:38:33,615 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:38:33,617 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:38:33,622 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:38:33,623 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:38:33,625 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:38:33,628 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:38:33,631 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:38:33,634 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:38:33,634 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:38:33,634 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:38:33,636 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:38:33,642 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:38:33,643 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:38:33,645 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:38:33,648 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:38:33,651 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:38:33,653 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:38:33,653 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:38:33,654 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:38:33,655 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:38:33,665 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:38:33,666 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:38:33,668 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:38:33,671 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:38:33,674 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:38:33,677 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:38:33,677 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:38:33,677 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:38:33,678 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:38:33,682 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:38:33,683 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:38:33,684 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:38:33,688 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:38:33,690 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:38:33,693 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:38:33,693 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:38:33,694 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:38:33,695 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:38:33,698 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:38:33,698 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:38:33,700 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:38:33,703 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:38:33,706 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:38:33,709 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:38:33,709 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:38:33,709 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:38:33,710 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:38:33,716 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:38:33,717 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:38:33,718 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:38:33,722 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:38:33,724 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:38:33,727 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:38:33,727 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:38:33,728 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:38:33,729 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:38:33,735 INFO annotation: Annotation sample: 5 rows -> /private/var/folders/t3/p10gzplx5pqg8y7hzqsqq3100000gn/T/pytest-of-vivekkumar/pytest-1/test_annotation_sample_buildin0/annotation_sample.csv
+2026-09-19 21:38:33,737 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:38:33,738 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:38:33,740 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:38:33,743 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:38:33,746 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:38:33,748 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:38:33,748 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:38:33,749 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:38:33,750 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:38:33,755 WARNING annotation: OVERWRITE GUARD: existing human sample has 50 rows but new sample has only 5 (/private/var/folders/t3/p10gzplx5pqg8y7hzqsqq3100000gn/T/pytest-of-vivekkumar/pytest-1/test_annotation_overwrite_guar0/annotation_sample.csv). Writing anyway is dangerous; pass force=True or out_dir to acknowledge. Proceeding with write.
+2026-09-19 21:38:33,756 INFO annotation: Annotation sample: 5 rows -> /private/var/folders/t3/p10gzplx5pqg8y7hzqsqq3100000gn/T/pytest-of-vivekkumar/pytest-1/test_annotation_overwrite_guar0/annotation_sample.csv
+2026-09-19 21:38:33,759 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:38:33,759 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:38:33,761 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:38:33,764 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:38:33,767 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:38:33,770 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:38:33,770 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:38:33,770 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:38:33,772 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:38:33,778 INFO annotation: Annotation sample: 5 rows -> /private/var/folders/t3/p10gzplx5pqg8y7hzqsqq3100000gn/T/pytest-of-vivekkumar/pytest-1/test_annotation_default_path_i0/project_io/annotations_dir/annotation_sample.csv
+2026-09-19 21:38:34,138 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=0
+2026-09-19 21:38:34,141 INFO failure_detector: Failure gate: YES=0 NO=1 | friction YES=1 | critical=0
+2026-09-19 21:38:34,145 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=1
+2026-09-19 21:38:34,149 INFO risk_engine: Risk (failure rows only): {'FINANCIAL_SECURITY_RISK': 1} | overlap YES=1
+2026-09-19 21:38:34,153 INFO risk_engine: Risk (failure rows only): {'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=0
+2026-09-19 21:38:34,156 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-19 21:38:34,159 INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 1, 'NEGATIVE': 1}
+2026-09-19 21:38:34,161 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 1}
+2026-09-19 21:38:34,165 INFO emotion_engine: Emotion: {'ANGER': 1}
+2026-09-19 21:38:34,168 INFO emotion_engine: Emotion: {'JOY': 1}
+2026-09-19 21:39:02,320 INFO language_detector: Detecting language for 449367 rows ...
+2026-09-19 21:39:20,582 INFO language_detector: Language distribution: {'English': 227741, 'Unknown': 135889, 'Hinglish': 81385, 'Hindi': 3192, 'Tamil': 372, 'Telugu': 230, 'Bengali': 204, 'Kannada': 95, 'Gujarati': 84, 'Malayalam': 74, 'Tanglish': 37, 'Oriya': 31, 'Punjabi': 21, 'Other_Indian': 12}
+2026-09-19 21:39:20,842 INFO annotation: Replacing human sample: 5 -> 12513 rows (/Users/vivekkumar/FDS - PROJECT/data/annotations/annotation_sample.csv)
+2026-09-19 21:39:20,917 INFO annotation: Annotation sample: 12513 rows -> /Users/vivekkumar/FDS - PROJECT/data/annotations/annotation_sample.csv
+2026-09-19 21:39:21,253 INFO language_detector: Detecting language for 12513 rows ...
+2026-09-19 21:39:21,756 INFO language_detector: Language distribution: {'English': 6140, 'Unknown': 3735, 'Hinglish': 2259, 'Hindi': 284, 'Tamil': 37, 'Telugu': 21, 'Bengali': 18, 'Gujarati': 7, 'Kannada': 7, 'Punjabi': 3, 'Malayalam': 1, 'Other_Indian': 1}
+2026-09-19 21:39:21,810 INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 7589, 'NEGATIVE': 4326, 'NEUTRAL': 598}
+2026-09-19 21:39:22,309 INFO failure_detector: Failure gate: YES=695 NO=11818 | friction YES=386 | critical=35
+2026-09-19 21:39:22,364 INFO risk_engine: Risk (failure rows only): {<NA>: 12040, 'TECHNICAL_PERFORMANCE_RISK': 437, 'FINANCIAL_SECURITY_RISK': 36} | overlap YES=6
+2026-09-19 21:39:22,691 INFO emotion_engine: Emotion: {'NEUTRAL': 8989, 'JOY': 1671, 'ANGER': 1106, 'FRUSTRATION': 505, 'TRUST': 88, 'CONFUSION': 86, 'DISAPPOINTMENT': 31, 'SADNESS': 20, 'FEAR': 17}
+2026-09-19 21:39:22,691 INFO aspect_engine: Extracting aspects for 12513 rows ...
+2026-09-19 21:39:22,917 INFO aspect_engine: Reviews with >=1 aspect: 2355
+2026-09-19 21:39:23,028 INFO annotation: Silver annotation set: 12513 rows -> /Users/vivekkumar/FDS - PROJECT/data/annotations/annotation_sample_silver.csv
+2026-09-19 21:39:52,680 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:39:52,681 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:39:52,683 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:39:52,687 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:39:52,690 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:39:52,693 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:39:52,694 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:39:52,694 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:39:52,696 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:39:52,703 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:39:52,704 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:39:52,706 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:39:52,710 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:39:52,715 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:39:52,722 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:39:52,722 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:39:52,722 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:39:52,724 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:39:52,731 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:39:52,732 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:39:52,734 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:39:52,738 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:39:52,740 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:39:52,743 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:39:52,743 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:39:52,744 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:39:52,745 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:39:52,755 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:39:52,756 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:39:52,757 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:39:52,761 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:39:52,764 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:39:52,767 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:39:52,767 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:39:52,767 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:39:52,768 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:39:52,772 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:39:52,773 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:39:52,775 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:39:52,778 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:39:52,781 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:39:52,784 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:39:52,784 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:39:52,784 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:39:52,785 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:39:52,788 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:39:52,789 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:39:52,791 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:39:52,794 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:39:52,797 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:39:52,799 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:39:52,799 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:39:52,800 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:39:52,801 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:39:52,807 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:39:52,808 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:39:52,809 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:39:52,813 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:39:52,815 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:39:52,818 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:39:52,818 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:39:52,819 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:39:52,820 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:39:52,826 INFO annotation: Annotation sample: 5 rows -> /private/var/folders/t3/p10gzplx5pqg8y7hzqsqq3100000gn/T/pytest-of-vivekkumar/pytest-2/test_annotation_sample_buildin0/annotation_sample.csv
+2026-09-19 21:39:52,829 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:39:52,829 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:39:52,831 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:39:52,834 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:39:52,837 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:39:52,840 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:39:52,840 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:39:52,840 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:39:52,841 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:39:52,846 WARNING annotation: OVERWRITE GUARD: existing human sample has 50 rows but new sample has only 5 (/private/var/folders/t3/p10gzplx5pqg8y7hzqsqq3100000gn/T/pytest-of-vivekkumar/pytest-2/test_annotation_overwrite_guar0/annotation_sample.csv). Writing anyway is dangerous; pass force=True or out_dir to acknowledge. Proceeding with write.
+2026-09-19 21:39:52,848 INFO annotation: Annotation sample: 5 rows -> /private/var/folders/t3/p10gzplx5pqg8y7hzqsqq3100000gn/T/pytest-of-vivekkumar/pytest-2/test_annotation_overwrite_guar0/annotation_sample.csv
+2026-09-19 21:39:52,850 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:39:52,851 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:39:52,853 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:39:52,856 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:39:52,859 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:39:52,861 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:39:52,861 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:39:52,862 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:39:52,863 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:39:52,869 INFO annotation: Annotation sample: 5 rows -> /private/var/folders/t3/p10gzplx5pqg8y7hzqsqq3100000gn/T/pytest-of-vivekkumar/pytest-2/test_annotation_default_path_i0/project_io/annotations_dir/annotation_sample.csv
+2026-09-19 21:39:53,429 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=0
+2026-09-19 21:39:53,433 INFO failure_detector: Failure gate: YES=0 NO=1 | friction YES=1 | critical=0
+2026-09-19 21:39:53,437 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=1
+2026-09-19 21:39:53,441 INFO risk_engine: Risk (failure rows only): {'FINANCIAL_SECURITY_RISK': 1} | overlap YES=1
+2026-09-19 21:39:53,444 INFO risk_engine: Risk (failure rows only): {'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=0
+2026-09-19 21:39:53,448 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-19 21:39:53,451 INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 1, 'NEGATIVE': 1}
+2026-09-19 21:39:53,453 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 1}
+2026-09-19 21:39:53,457 INFO emotion_engine: Emotion: {'ANGER': 1}
+2026-09-19 21:39:53,461 INFO emotion_engine: Emotion: {'JOY': 1}
+2026-09-19 21:40:23,615 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:40:23,616 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:40:23,618 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:40:23,622 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:40:23,625 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:40:23,628 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:40:23,628 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:40:23,629 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:40:23,631 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:40:23,636 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:40:23,637 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:40:23,639 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:40:23,642 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:40:23,645 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:40:23,648 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:40:23,648 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:40:23,648 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:40:23,650 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:40:23,656 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:40:23,657 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:40:23,658 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:40:23,662 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:40:23,664 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:40:23,667 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:40:23,667 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:40:23,668 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:40:23,669 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:40:23,678 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:40:23,679 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:40:23,681 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:40:23,684 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:40:23,687 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:40:23,690 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:40:23,690 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:40:23,690 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:40:23,692 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:40:23,695 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:40:23,696 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:40:23,698 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:40:23,701 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:40:23,704 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:40:23,706 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:40:23,707 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:40:23,707 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:40:23,708 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:40:23,711 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:40:23,712 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:40:23,713 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:40:23,717 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:40:23,720 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:40:23,722 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:40:23,722 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:40:23,723 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:40:23,724 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:40:23,730 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:40:23,731 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:40:23,732 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:40:23,736 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:40:23,738 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:40:23,741 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:40:23,741 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:40:23,742 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:40:23,743 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:40:23,749 INFO annotation: Annotation sample: 5 rows -> /private/var/folders/t3/p10gzplx5pqg8y7hzqsqq3100000gn/T/pytest-of-vivekkumar/pytest-3/test_annotation_sample_buildin0/annotation_sample.csv
+2026-09-19 21:40:23,752 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:40:23,752 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:40:23,754 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:40:23,757 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:40:23,760 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:40:23,763 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:40:23,763 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:40:23,763 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:40:23,764 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:40:23,769 WARNING annotation: OVERWRITE GUARD: existing human sample has 50 rows but new sample has only 5 (/private/var/folders/t3/p10gzplx5pqg8y7hzqsqq3100000gn/T/pytest-of-vivekkumar/pytest-3/test_annotation_overwrite_guar0/annotation_sample.csv). Writing anyway is dangerous; pass force=True or out_dir to acknowledge. Proceeding with write.
+2026-09-19 21:40:23,771 INFO annotation: Annotation sample: 5 rows -> /private/var/folders/t3/p10gzplx5pqg8y7hzqsqq3100000gn/T/pytest-of-vivekkumar/pytest-3/test_annotation_overwrite_guar0/annotation_sample.csv
+2026-09-19 21:40:23,773 INFO language_detector: Detecting language for 10 rows ...
+2026-09-19 21:40:23,774 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-19 21:40:23,776 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-19 21:40:23,779 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-19 21:40:23,782 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-19 21:40:23,784 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-19 21:40:23,784 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-19 21:40:23,785 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-19 21:40:23,786 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-19 21:40:23,792 INFO annotation: Annotation sample: 5 rows -> /private/var/folders/t3/p10gzplx5pqg8y7hzqsqq3100000gn/T/pytest-of-vivekkumar/pytest-3/test_annotation_default_path_i0/project_io/annotations_dir/annotation_sample.csv
+2026-09-19 21:40:24,154 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=0
+2026-09-19 21:40:24,159 INFO failure_detector: Failure gate: YES=0 NO=1 | friction YES=1 | critical=0
+2026-09-19 21:40:24,162 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=1
+2026-09-19 21:40:24,166 INFO risk_engine: Risk (failure rows only): {'FINANCIAL_SECURITY_RISK': 1} | overlap YES=1
+2026-09-19 21:40:24,170 INFO risk_engine: Risk (failure rows only): {'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=0
+2026-09-19 21:40:24,173 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-19 21:40:24,176 INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 1, 'NEGATIVE': 1}
+2026-09-19 21:40:24,178 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 1}
+2026-09-19 21:40:24,182 INFO emotion_engine: Emotion: {'ANGER': 1}
+2026-09-19 21:40:24,186 INFO emotion_engine: Emotion: {'JOY': 1}
+2026-09-20 17:55:10,304 INFO export: Wrote sentiment_predictions.parquet (449379 rows)
+2026-09-20 17:55:10,452 INFO export: Wrote failure_predictions.parquet (449379 rows)
+2026-09-20 17:55:10,597 INFO export: Wrote risk_predictions.parquet (449379 rows)
+2026-09-20 17:55:10,736 INFO export: Wrote emotion_predictions.parquet (449379 rows)
+2026-09-20 17:55:10,860 INFO export: Wrote aspect_predictions.parquet (449379 rows)
+2026-09-20 17:55:10,995 INFO export: Wrote aspect_edges.parquet (252 edges)
+2026-09-20 17:55:11,012 INFO export: Wrote pagerank_by_bank.csv (249 rows)
+2026-09-20 17:55:11,017 INFO export: Wrote model_benchmark.csv (1 rows)
+2026-09-20 17:55:11,018 INFO export: All s.54 exports complete
+2026-09-20 17:55:11,470 INFO figures: Figure -> 01_sentiment_distribution.png
+2026-09-20 17:55:11,669 INFO figures: Figure -> 02_sentiment_over_time.png
+2026-09-20 17:55:11,785 INFO figures: Figure -> 03_govt_vs_private_sentiment.png
+2026-09-20 17:55:11,866 INFO figures: Figure -> 04_technical_vs_financial_risk.png
+2026-09-20 17:55:12,016 INFO figures: Figure -> 05_risk_by_bank.png
+2026-09-20 17:55:12,157 INFO figures: Figure -> 06_risk_by_language.png
+2026-09-20 17:55:12,256 INFO figures: Figure -> 07_risk_by_rating.png
+2026-09-20 17:55:12,366 INFO figures: Figure -> 08_emotion_distribution.png
+2026-09-20 17:55:12,565 INFO figures: Figure -> 09_emotion_by_risk.png
+2026-09-20 17:55:12,830 INFO figures: Figure -> 10_aspect_frequency.png
+2026-09-20 17:55:13,417 INFO figures: Figure -> 11_aspect_sentiment.png
+2026-09-20 17:55:13,570 INFO figures: Figure -> 12_pagerank_top_aspects.png
+2026-09-20 17:55:13,725 INFO figures: Figure -> 13_pagerank_govt_vs_private.png
+2026-09-20 17:55:13,938 INFO figures: Figure -> 14_response_latency_distribution.png
+2026-09-20 17:55:14,859 INFO figures: Figure -> 15_response_latency_vs_rating.png
+2026-09-20 17:55:14,927 INFO figures: Figure -> 16_model_benchmark.png
+2026-09-20 17:55:16,694 INFO figures: Skipping 17 (no evaluation prediction dumps yet)
+2026-09-20 17:55:16,694 INFO figures: Skipping 18 (no per-language model eval yet)
+2026-09-20 17:55:16,694 INFO figures: Skipping 19 (flat-vs-hierarchical comparison not run yet)
+2026-09-20 17:55:16,791 INFO figures: Figure -> 20_severity_distribution.png
+2026-09-20 17:55:17,413 INFO figures: Figure -> 21_app_version_trend.png
+2026-09-20 17:55:17,582 INFO figures: Figure -> 22_potential_anomaly_timeline.png
+2026-09-20 17:55:17,582 INFO figures: Figures written: 19/22
+2026-09-20 17:58:38,432 INFO train: Task sentiment: 12513 rows from annotation_sample_silver.csv | labels: {'POSITIVE': 7589, 'NEGATIVE': 4326, 'NEUTRAL': 598}
+2026-09-20 17:59:30,419 INFO model_registry: Metrics recorded -> /Users/vivekkumar/FDS - PROJECT/reports/model_results/sentiment_distilbert-base-uncased_20260920_175838.json
+2026-09-20 17:59:34,136 INFO train: Eval artifacts for sentiment -> sentiment_predictions_eval.parquet
+2026-09-20 17:59:34,136 INFO train: [sentiment/distilbert-base-uncased] macro_f1=0.4936 (smoke=True, split=random)
+2026-09-20 17:59:47,621 INFO figures: Figure -> 01_sentiment_distribution.png
+2026-09-20 17:59:47,788 INFO figures: Figure -> 02_sentiment_over_time.png
+2026-09-20 17:59:47,912 INFO figures: Figure -> 03_govt_vs_private_sentiment.png
+2026-09-20 17:59:48,009 INFO figures: Figure -> 04_technical_vs_financial_risk.png
+2026-09-20 17:59:48,167 INFO figures: Figure -> 05_risk_by_bank.png
+2026-09-20 17:59:48,295 INFO figures: Figure -> 06_risk_by_language.png
+2026-09-20 17:59:48,388 INFO figures: Figure -> 07_risk_by_rating.png
+2026-09-20 17:59:48,501 INFO figures: Figure -> 08_emotion_distribution.png
+2026-09-20 17:59:48,675 INFO figures: Figure -> 09_emotion_by_risk.png
+2026-09-20 17:59:48,951 INFO figures: Figure -> 10_aspect_frequency.png
+2026-09-20 17:59:49,338 INFO figures: Figure -> 11_aspect_sentiment.png
+2026-09-20 17:59:49,469 INFO figures: Figure -> 12_pagerank_top_aspects.png
+2026-09-20 17:59:49,634 INFO figures: Figure -> 13_pagerank_govt_vs_private.png
+2026-09-20 17:59:49,758 INFO figures: Figure -> 14_response_latency_distribution.png
+2026-09-20 17:59:50,626 INFO figures: Figure -> 15_response_latency_vs_rating.png
+2026-09-20 17:59:50,687 INFO figures: Figure -> 16_model_benchmark.png
+2026-09-20 17:59:51,982 WARNING figures: Figure job failed: 'utf-8' codec can't decode byte 0x90 in position 41: invalid start byte
+2026-09-20 17:59:52,054 INFO figures: Figure -> 18_language_specific_model_performance.png
+2026-09-20 17:59:52,054 INFO figures: Skipping 19 (flat-vs-hierarchical comparison not run yet)
+2026-09-20 17:59:52,146 INFO figures: Figure -> 20_severity_distribution.png
+2026-09-20 17:59:52,505 INFO figures: Figure -> 21_app_version_trend.png
+2026-09-20 17:59:52,680 INFO figures: Figure -> 22_potential_anomaly_timeline.png
+2026-09-20 17:59:52,681 INFO figures: Figures written: 20/22
+2026-09-20 18:11:13,605 INFO language_detector: Detecting language for 10 rows ...
+2026-09-20 18:11:13,611 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-20 18:11:13,621 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-20 18:11:13,640 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-20 18:11:13,647 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-20 18:11:13,656 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-20 18:11:13,656 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-20 18:11:13,657 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-20 18:11:13,662 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-20 18:11:13,679 INFO language_detector: Detecting language for 10 rows ...
+2026-09-20 18:11:13,682 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-20 18:11:13,688 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-20 18:11:13,697 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-20 18:11:13,703 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-20 18:11:13,708 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-20 18:11:13,709 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-20 18:11:13,710 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-20 18:11:13,712 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-20 18:11:13,731 INFO language_detector: Detecting language for 10 rows ...
+2026-09-20 18:11:13,733 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-20 18:11:13,737 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-20 18:11:13,746 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-20 18:11:13,752 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-20 18:11:13,760 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-20 18:11:13,761 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-20 18:11:13,762 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-20 18:11:13,766 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-20 18:11:13,792 INFO language_detector: Detecting language for 10 rows ...
+2026-09-20 18:11:13,794 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-20 18:11:13,797 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-20 18:11:13,809 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-20 18:11:13,816 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-20 18:11:13,826 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-20 18:11:13,826 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-20 18:11:13,827 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-20 18:11:13,830 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-20 18:11:13,839 INFO language_detector: Detecting language for 10 rows ...
+2026-09-20 18:11:13,841 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-20 18:11:13,845 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-20 18:11:13,853 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-20 18:11:13,859 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-20 18:11:13,864 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-20 18:11:13,865 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-20 18:11:13,866 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-20 18:11:13,870 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-20 18:11:13,876 INFO language_detector: Detecting language for 10 rows ...
+2026-09-20 18:11:13,878 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-20 18:11:13,881 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-20 18:11:13,889 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-20 18:11:13,895 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-20 18:11:13,901 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-20 18:11:13,901 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-20 18:11:13,902 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-20 18:11:13,905 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-20 18:11:13,922 INFO language_detector: Detecting language for 10 rows ...
+2026-09-20 18:11:13,924 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-20 18:11:13,927 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-20 18:11:13,936 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-20 18:11:13,944 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-20 18:11:13,951 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-20 18:11:13,951 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-20 18:11:13,953 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-20 18:11:13,955 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-20 18:11:13,972 INFO annotation: Annotation sample: 5 rows -> /private/var/folders/t3/p10gzplx5pqg8y7hzqsqq3100000gn/T/pytest-of-vivekkumar/pytest-0/test_annotation_sample_buildin0/annotation_sample.csv
+2026-09-20 18:11:13,978 INFO language_detector: Detecting language for 10 rows ...
+2026-09-20 18:11:13,980 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-20 18:11:13,983 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-20 18:11:13,992 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-20 18:11:14,000 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-20 18:11:14,008 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-20 18:11:14,008 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-20 18:11:14,010 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-20 18:11:14,015 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-20 18:11:14,031 WARNING annotation: OVERWRITE GUARD: existing human sample has 50 rows but new sample has only 5 (/private/var/folders/t3/p10gzplx5pqg8y7hzqsqq3100000gn/T/pytest-of-vivekkumar/pytest-0/test_annotation_overwrite_guar0/annotation_sample.csv). Writing anyway is dangerous; pass force=True or out_dir to acknowledge. Proceeding with write.
+2026-09-20 18:11:14,035 INFO annotation: Annotation sample: 5 rows -> /private/var/folders/t3/p10gzplx5pqg8y7hzqsqq3100000gn/T/pytest-of-vivekkumar/pytest-0/test_annotation_overwrite_guar0/annotation_sample.csv
+2026-09-20 18:11:14,041 INFO language_detector: Detecting language for 10 rows ...
+2026-09-20 18:11:14,042 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-20 18:11:14,047 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-20 18:11:14,055 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-20 18:11:14,061 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-20 18:11:14,066 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-20 18:11:14,067 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-20 18:11:14,069 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-20 18:11:14,072 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-20 18:11:14,085 INFO annotation: Annotation sample: 5 rows -> /private/var/folders/t3/p10gzplx5pqg8y7hzqsqq3100000gn/T/pytest-of-vivekkumar/pytest-0/test_annotation_default_path_i0/project_io/annotations_dir/annotation_sample.csv
+2026-09-20 18:11:17,344 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=0
+2026-09-20 18:11:17,357 INFO failure_detector: Failure gate: YES=0 NO=1 | friction YES=1 | critical=0
+2026-09-20 18:11:17,366 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=1
+2026-09-20 18:11:17,376 INFO risk_engine: Risk (failure rows only): {'FINANCIAL_SECURITY_RISK': 1} | overlap YES=1
+2026-09-20 18:11:17,384 INFO risk_engine: Risk (failure rows only): {'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=0
+2026-09-20 18:11:17,394 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-20 18:11:17,400 INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 1, 'NEGATIVE': 1}
+2026-09-20 18:11:17,408 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 1}
+2026-09-20 18:11:17,417 INFO emotion_engine: Emotion: {'ANGER': 1}
+2026-09-20 18:11:17,426 INFO emotion_engine: Emotion: {'JOY': 1}
+2026-09-20 18:11:37,702 INFO language_detector: Detecting language for 10 rows ...
+2026-09-20 18:11:37,706 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-20 18:11:37,712 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-20 18:11:37,725 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-20 18:11:37,735 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-20 18:11:37,745 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-20 18:11:37,745 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-20 18:11:37,746 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-20 18:11:37,751 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-20 18:11:37,766 INFO language_detector: Detecting language for 10 rows ...
+2026-09-20 18:11:37,768 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-20 18:11:37,771 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-20 18:11:37,778 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-20 18:11:37,784 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-20 18:11:37,790 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-20 18:11:37,790 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-20 18:11:37,792 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-20 18:11:37,795 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-20 18:11:37,811 INFO language_detector: Detecting language for 10 rows ...
+2026-09-20 18:11:37,813 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-20 18:11:37,816 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-20 18:11:37,823 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-20 18:11:37,828 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-20 18:11:37,834 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-20 18:11:37,834 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-20 18:11:37,836 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-20 18:11:37,838 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-20 18:11:37,862 INFO language_detector: Detecting language for 10 rows ...
+2026-09-20 18:11:37,863 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-20 18:11:37,866 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-20 18:11:37,873 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-20 18:11:37,878 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-20 18:11:37,884 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-20 18:11:37,884 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-20 18:11:37,885 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-20 18:11:37,888 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-20 18:11:37,896 INFO language_detector: Detecting language for 10 rows ...
+2026-09-20 18:11:37,898 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-20 18:11:37,901 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-20 18:11:37,908 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-20 18:11:37,917 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-20 18:11:37,924 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-20 18:11:37,925 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-20 18:11:37,926 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-20 18:11:37,930 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-20 18:11:37,938 INFO language_detector: Detecting language for 10 rows ...
+2026-09-20 18:11:37,940 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-20 18:11:37,943 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-20 18:11:37,950 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-20 18:11:37,955 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-20 18:11:37,960 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-20 18:11:37,960 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-20 18:11:37,962 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-20 18:11:37,964 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-20 18:11:37,980 INFO language_detector: Detecting language for 10 rows ...
+2026-09-20 18:11:37,981 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-20 18:11:37,985 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-20 18:11:37,992 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-20 18:11:37,997 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-20 18:11:38,003 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-20 18:11:38,004 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-20 18:11:38,005 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-20 18:11:38,007 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-20 18:11:38,022 INFO annotation: Annotation sample: 5 rows -> /private/var/folders/t3/p10gzplx5pqg8y7hzqsqq3100000gn/T/pytest-of-vivekkumar/pytest-1/test_annotation_sample_buildin0/annotation_sample.csv
+2026-09-20 18:11:38,028 INFO language_detector: Detecting language for 10 rows ...
+2026-09-20 18:11:38,030 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-20 18:11:38,033 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-20 18:11:38,039 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-20 18:11:38,045 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-20 18:11:38,052 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-20 18:11:38,052 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-20 18:11:38,053 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-20 18:11:38,055 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-20 18:11:38,067 WARNING annotation: OVERWRITE GUARD: existing human sample has 50 rows but new sample has only 5 (/private/var/folders/t3/p10gzplx5pqg8y7hzqsqq3100000gn/T/pytest-of-vivekkumar/pytest-1/test_annotation_overwrite_guar0/annotation_sample.csv). Writing anyway is dangerous; pass force=True or out_dir to acknowledge. Proceeding with write.
+2026-09-20 18:11:38,069 INFO annotation: Annotation sample: 5 rows -> /private/var/folders/t3/p10gzplx5pqg8y7hzqsqq3100000gn/T/pytest-of-vivekkumar/pytest-1/test_annotation_overwrite_guar0/annotation_sample.csv
+2026-09-20 18:11:38,074 INFO language_detector: Detecting language for 10 rows ...
+2026-09-20 18:11:38,075 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-20 18:11:38,079 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-20 18:11:38,086 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-20 18:11:38,091 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-20 18:11:38,099 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-20 18:11:38,100 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-20 18:11:38,101 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-20 18:11:38,105 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-20 18:11:38,128 INFO annotation: Annotation sample: 5 rows -> /private/var/folders/t3/p10gzplx5pqg8y7hzqsqq3100000gn/T/pytest-of-vivekkumar/pytest-1/test_annotation_default_path_i0/project_io/annotations_dir/annotation_sample.csv
+2026-09-20 18:11:40,888 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=0
+2026-09-20 18:11:40,896 INFO failure_detector: Failure gate: YES=0 NO=1 | friction YES=1 | critical=0
+2026-09-20 18:11:40,904 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=1
+2026-09-20 18:11:40,912 INFO risk_engine: Risk (failure rows only): {'FINANCIAL_SECURITY_RISK': 1} | overlap YES=1
+2026-09-20 18:11:40,919 INFO risk_engine: Risk (failure rows only): {'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=0
+2026-09-20 18:11:40,931 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-20 18:11:40,938 INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 1, 'NEGATIVE': 1}
+2026-09-20 18:11:40,948 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 1}
+2026-09-20 18:11:40,957 INFO emotion_engine: Emotion: {'ANGER': 1}
+2026-09-20 18:11:40,965 INFO emotion_engine: Emotion: {'JOY': 1}
+2026-09-20 18:18:29,620 INFO train: Derived flat_label: {'NORMAL': 11468, 'OPERATIONAL_FRICTION': 572, 'TECHNICAL_RISK': 437, 'FINANCIAL_RISK': 36}
+2026-09-20 18:18:29,628 INFO train: Task flat: 12513 rows from annotation_sample_silver.csv | labels: {'NORMAL': 11468, 'OPERATIONAL_FRICTION': 572, 'TECHNICAL_RISK': 437, 'FINANCIAL_RISK': 36}
+2026-09-20 18:19:18,666 INFO model_registry: Metrics recorded -> /Users/vivekkumar/FDS - PROJECT/reports/model_results/flat_distilbert-base-uncased_20260920_181829.json
+2026-09-20 18:19:22,145 INFO train: Eval artifacts for flat -> flat_predictions_eval.parquet
+2026-09-20 18:19:22,146 INFO train: [flat/distilbert-base-uncased] macro_f1=0.3194 (smoke=True, split=random)
+2026-09-20 18:20:14,810 WARNING evaluate: flat_vs_hierarchical: no trained flat head found - table left untouched
+2026-09-20 18:20:35,465 INFO train: Task sentiment: 12513 rows from annotation_sample_silver.csv | labels: {'POSITIVE': 7589, 'NEGATIVE': 4326, 'NEUTRAL': 598}
+2026-09-20 18:21:09,877 INFO model_registry: Metrics recorded -> /Users/vivekkumar/FDS - PROJECT/reports/model_results/sentiment_distilbert-base-uncased_20260920_182035.json
+2026-09-20 18:21:11,774 INFO train: Eval artifacts for sentiment -> sentiment_predictions_eval.parquet
+2026-09-20 18:21:11,876 INFO train: [sentiment/distilbert-base-uncased] macro_f1=0.4936 (smoke=True, split=random)
+2026-09-20 18:22:27,355 INFO train: Derived flat_label: {'NORMAL': 11468, 'OPERATIONAL_FRICTION': 572, 'TECHNICAL_RISK': 437, 'FINANCIAL_RISK': 36}
+2026-09-20 18:22:27,359 INFO train: Task flat: 12513 rows from annotation_sample_silver.csv | labels: {'NORMAL': 11468, 'OPERATIONAL_FRICTION': 572, 'TECHNICAL_RISK': 437, 'FINANCIAL_RISK': 36}
+2026-09-20 18:23:01,521 INFO model_registry: Metrics recorded -> /Users/vivekkumar/FDS - PROJECT/reports/model_results/flat_distilbert-base-uncased_20260920_182227.json
+2026-09-20 18:23:03,394 INFO train: Eval artifacts for flat -> flat_predictions_eval.parquet
+2026-09-20 18:23:03,502 INFO train: [flat/distilbert-base-uncased] macro_f1=0.3194 (smoke=True, split=random)
+2026-09-20 18:23:05,022 INFO train: Derived flat_label: {'NORMAL': 11468, 'OPERATIONAL_FRICTION': 572, 'TECHNICAL_RISK': 437, 'FINANCIAL_RISK': 36}
+2026-09-20 18:23:05,026 INFO train: Task flat: 12513 rows from annotation_sample_silver.csv | labels: {'NORMAL': 11468, 'OPERATIONAL_FRICTION': 572, 'TECHNICAL_RISK': 437, 'FINANCIAL_RISK': 36}
+2026-09-20 18:23:39,072 INFO model_registry: Metrics recorded -> /Users/vivekkumar/FDS - PROJECT/reports/model_results/flat_distilbert-base-uncased_20260920_182304.json
+2026-09-20 18:23:41,006 INFO train: Eval artifacts for flat -> flat_predictions_eval.parquet
+2026-09-20 18:23:41,097 INFO train: [flat/distilbert-base-uncased] macro_f1=0.3194 (smoke=True, split=random)
+2026-09-20 18:24:40,880 INFO figures: Figure -> 01_sentiment_distribution.png
+2026-09-20 18:24:40,966 INFO figures: Figure -> 02_sentiment_over_time.png
+2026-09-20 18:24:41,025 INFO figures: Figure -> 03_govt_vs_private_sentiment.png
+2026-09-20 18:24:41,063 INFO figures: Figure -> 04_technical_vs_financial_risk.png
+2026-09-20 18:24:41,136 INFO figures: Figure -> 05_risk_by_bank.png
+2026-09-20 18:24:41,194 INFO figures: Figure -> 06_risk_by_language.png
+2026-09-20 18:24:41,240 INFO figures: Figure -> 07_risk_by_rating.png
+2026-09-20 18:24:41,291 INFO figures: Figure -> 08_emotion_distribution.png
+2026-09-20 18:24:41,371 INFO figures: Figure -> 09_emotion_by_risk.png
+2026-09-20 18:24:41,489 INFO figures: Figure -> 10_aspect_frequency.png
+2026-09-20 18:24:41,667 INFO figures: Figure -> 11_aspect_sentiment.png
+2026-09-20 18:24:41,728 INFO figures: Figure -> 12_pagerank_top_aspects.png
+2026-09-20 18:24:41,793 INFO figures: Figure -> 13_pagerank_govt_vs_private.png
+2026-09-20 18:24:41,846 INFO figures: Figure -> 14_response_latency_distribution.png
+2026-09-20 18:24:42,226 INFO figures: Figure -> 15_response_latency_vs_rating.png
+2026-09-20 18:24:42,255 INFO figures: Figure -> 16_model_benchmark.png
+2026-09-20 18:24:42,811 INFO figures: Figure -> 17_confusion_matrices.png
+2026-09-20 18:24:42,850 INFO figures: Figure -> 18_language_specific_model_performance.png
+2026-09-20 18:24:42,877 INFO figures: Figure -> 19_flat_vs_hierarchical.png
+2026-09-20 18:24:42,919 INFO figures: Figure -> 20_severity_distribution.png
+2026-09-20 18:24:43,088 INFO figures: Figure -> 21_app_version_trend.png
+2026-09-20 18:24:43,171 INFO figures: Figure -> 22_potential_anomaly_timeline.png
+2026-09-20 18:24:43,171 INFO figures: Figures written: 22/22
+2026-09-20 18:24:59,583 INFO export: Wrote model_benchmark.csv (6 rows)
+2026-09-20 18:25:09,527 INFO export: Wrote model_benchmark.csv (2 rows)
+2026-09-20 18:25:13,124 INFO figures: Figure -> 01_sentiment_distribution.png
+2026-09-20 18:25:13,207 INFO figures: Figure -> 02_sentiment_over_time.png
+2026-09-20 18:25:13,263 INFO figures: Figure -> 03_govt_vs_private_sentiment.png
+2026-09-20 18:25:13,300 INFO figures: Figure -> 04_technical_vs_financial_risk.png
+2026-09-20 18:25:13,370 INFO figures: Figure -> 05_risk_by_bank.png
+2026-09-20 18:25:13,427 INFO figures: Figure -> 06_risk_by_language.png
+2026-09-20 18:25:13,472 INFO figures: Figure -> 07_risk_by_rating.png
+2026-09-20 18:25:13,523 INFO figures: Figure -> 08_emotion_distribution.png
+2026-09-20 18:25:13,602 INFO figures: Figure -> 09_emotion_by_risk.png
+2026-09-20 18:25:13,717 INFO figures: Figure -> 10_aspect_frequency.png
+2026-09-20 18:25:13,890 INFO figures: Figure -> 11_aspect_sentiment.png
+2026-09-20 18:25:13,949 INFO figures: Figure -> 12_pagerank_top_aspects.png
+2026-09-20 18:25:14,009 INFO figures: Figure -> 13_pagerank_govt_vs_private.png
+2026-09-20 18:25:14,062 INFO figures: Figure -> 14_response_latency_distribution.png
+2026-09-20 18:25:14,452 INFO figures: Figure -> 15_response_latency_vs_rating.png
+2026-09-20 18:25:14,484 INFO figures: Figure -> 16_model_benchmark.png
+2026-09-20 18:25:15,037 INFO figures: Figure -> 17_confusion_matrices.png
+2026-09-20 18:25:15,075 INFO figures: Figure -> 18_language_specific_model_performance.png
+2026-09-20 18:25:15,100 INFO figures: Figure -> 19_flat_vs_hierarchical.png
+2026-09-20 18:25:15,140 INFO figures: Figure -> 20_severity_distribution.png
+2026-09-20 18:25:15,314 INFO figures: Figure -> 21_app_version_trend.png
+2026-09-20 18:25:15,394 INFO figures: Figure -> 22_potential_anomaly_timeline.png
+2026-09-20 18:25:15,394 INFO figures: Figures written: 22/22
+2026-09-20 18:25:16,449 INFO language_detector: Detecting language for 10 rows ...
+2026-09-20 18:25:16,450 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-20 18:25:16,453 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-20 18:25:16,458 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-20 18:25:16,461 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-20 18:25:16,464 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-20 18:25:16,464 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-20 18:25:16,464 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-20 18:25:16,467 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-20 18:25:16,474 INFO language_detector: Detecting language for 10 rows ...
+2026-09-20 18:25:16,475 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-20 18:25:16,476 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-20 18:25:16,480 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-20 18:25:16,483 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-20 18:25:16,485 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-20 18:25:16,485 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-20 18:25:16,486 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-20 18:25:16,488 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-20 18:25:16,494 INFO language_detector: Detecting language for 10 rows ...
+2026-09-20 18:25:16,495 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-20 18:25:16,497 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-20 18:25:16,500 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-20 18:25:16,503 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-20 18:25:16,506 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-20 18:25:16,506 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-20 18:25:16,506 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-20 18:25:16,508 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-20 18:25:16,519 INFO language_detector: Detecting language for 10 rows ...
+2026-09-20 18:25:16,519 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-20 18:25:16,521 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-20 18:25:16,525 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-20 18:25:16,527 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-20 18:25:16,530 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-20 18:25:16,530 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-20 18:25:16,531 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-20 18:25:16,532 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-20 18:25:16,536 INFO language_detector: Detecting language for 10 rows ...
+2026-09-20 18:25:16,537 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-20 18:25:16,539 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-20 18:25:16,542 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-20 18:25:16,545 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-20 18:25:16,548 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-20 18:25:16,548 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-20 18:25:16,548 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-20 18:25:16,549 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-20 18:25:16,552 INFO language_detector: Detecting language for 10 rows ...
+2026-09-20 18:25:16,553 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-20 18:25:16,555 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-20 18:25:16,558 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-20 18:25:16,561 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-20 18:25:16,564 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-20 18:25:16,564 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-20 18:25:16,564 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-20 18:25:16,565 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-20 18:25:16,572 INFO language_detector: Detecting language for 10 rows ...
+2026-09-20 18:25:16,573 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-20 18:25:16,575 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-20 18:25:16,578 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-20 18:25:16,581 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-20 18:25:16,584 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-20 18:25:16,584 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-20 18:25:16,584 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-20 18:25:16,585 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-20 18:25:16,592 INFO annotation: Annotation sample: 5 rows -> /private/var/folders/t3/p10gzplx5pqg8y7hzqsqq3100000gn/T/pytest-of-vivekkumar/pytest-2/test_annotation_sample_buildin0/annotation_sample.csv
+2026-09-20 18:25:16,594 INFO language_detector: Detecting language for 10 rows ...
+2026-09-20 18:25:16,595 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-20 18:25:16,597 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-20 18:25:16,600 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-20 18:25:16,603 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-20 18:25:16,606 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-20 18:25:16,606 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-20 18:25:16,606 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-20 18:25:16,608 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-20 18:25:16,613 WARNING annotation: OVERWRITE GUARD: existing human sample has 50 rows but new sample has only 5 (/private/var/folders/t3/p10gzplx5pqg8y7hzqsqq3100000gn/T/pytest-of-vivekkumar/pytest-2/test_annotation_overwrite_guar0/annotation_sample.csv). Writing anyway is dangerous; pass force=True or out_dir to acknowledge. Proceeding with write.
+2026-09-20 18:25:16,614 INFO annotation: Annotation sample: 5 rows -> /private/var/folders/t3/p10gzplx5pqg8y7hzqsqq3100000gn/T/pytest-of-vivekkumar/pytest-2/test_annotation_overwrite_guar0/annotation_sample.csv
+2026-09-20 18:25:16,616 INFO language_detector: Detecting language for 10 rows ...
+2026-09-20 18:25:16,617 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-20 18:25:16,618 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-20 18:25:16,622 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-20 18:25:16,624 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-20 18:25:16,627 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-20 18:25:16,627 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-20 18:25:16,628 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-20 18:25:16,629 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-20 18:25:16,635 INFO annotation: Annotation sample: 5 rows -> /private/var/folders/t3/p10gzplx5pqg8y7hzqsqq3100000gn/T/pytest-of-vivekkumar/pytest-2/test_annotation_default_path_i0/project_io/annotations_dir/annotation_sample.csv
+2026-09-20 18:25:17,854 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=0
+2026-09-20 18:25:17,858 INFO failure_detector: Failure gate: YES=0 NO=1 | friction YES=1 | critical=0
+2026-09-20 18:25:17,862 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=1
+2026-09-20 18:25:17,866 INFO risk_engine: Risk (failure rows only): {'FINANCIAL_SECURITY_RISK': 1} | overlap YES=1
+2026-09-20 18:25:17,870 INFO risk_engine: Risk (failure rows only): {'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=0
+2026-09-20 18:25:17,874 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-20 18:25:17,877 INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 1, 'NEGATIVE': 1}
+2026-09-20 18:25:17,880 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 1}
+2026-09-20 18:25:17,884 INFO emotion_engine: Emotion: {'ANGER': 1}
+2026-09-20 18:25:17,888 INFO emotion_engine: Emotion: {'JOY': 1}
+2026-09-21 21:28:44,195 INFO language_detector: Detecting language for 10 rows ...
+2026-09-21 21:28:44,197 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-21 21:28:44,200 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-21 21:28:44,206 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-21 21:28:44,209 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-21 21:28:44,212 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-21 21:28:44,212 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-21 21:28:44,213 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-21 21:28:44,215 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-21 21:28:44,223 INFO language_detector: Detecting language for 10 rows ...
+2026-09-21 21:28:44,224 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-21 21:28:44,226 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-21 21:28:44,229 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-21 21:28:44,232 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-21 21:28:44,235 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-21 21:28:44,235 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-21 21:28:44,235 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-21 21:28:44,237 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-21 21:28:44,245 INFO language_detector: Detecting language for 10 rows ...
+2026-09-21 21:28:44,246 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-21 21:28:44,248 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-21 21:28:44,251 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-21 21:28:44,254 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-21 21:28:44,257 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-21 21:28:44,257 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-21 21:28:44,257 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-21 21:28:44,259 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-21 21:28:44,270 INFO language_detector: Detecting language for 10 rows ...
+2026-09-21 21:28:44,271 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-21 21:28:44,272 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-21 21:28:44,276 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-21 21:28:44,278 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-21 21:28:44,281 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-21 21:28:44,281 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-21 21:28:44,282 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-21 21:28:44,283 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-21 21:28:44,287 INFO language_detector: Detecting language for 10 rows ...
+2026-09-21 21:28:44,288 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-21 21:28:44,289 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-21 21:28:44,293 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-21 21:28:44,295 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-21 21:28:44,298 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-21 21:28:44,298 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-21 21:28:44,298 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-21 21:28:44,300 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-21 21:28:44,303 INFO language_detector: Detecting language for 10 rows ...
+2026-09-21 21:28:44,303 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-21 21:28:44,305 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-21 21:28:44,308 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-21 21:28:44,311 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-21 21:28:44,314 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-21 21:28:44,314 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-21 21:28:44,314 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-21 21:28:44,316 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-21 21:28:44,323 INFO language_detector: Detecting language for 10 rows ...
+2026-09-21 21:28:44,324 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-21 21:28:44,325 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-21 21:28:44,329 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-21 21:28:44,331 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-21 21:28:44,334 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-21 21:28:44,334 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-21 21:28:44,335 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-21 21:28:44,336 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-21 21:28:44,343 INFO annotation: Annotation sample: 5 rows -> /private/var/folders/t3/p10gzplx5pqg8y7hzqsqq3100000gn/T/pytest-of-vivekkumar/pytest-3/test_annotation_sample_buildin0/annotation_sample.csv
+2026-09-21 21:28:44,345 INFO language_detector: Detecting language for 10 rows ...
+2026-09-21 21:28:44,346 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-21 21:28:44,348 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-21 21:28:44,351 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-21 21:28:44,354 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-21 21:28:44,356 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-21 21:28:44,356 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-21 21:28:44,357 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-21 21:28:44,358 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-21 21:28:44,363 WARNING annotation: OVERWRITE GUARD: existing human sample has 50 rows but new sample has only 5 (/private/var/folders/t3/p10gzplx5pqg8y7hzqsqq3100000gn/T/pytest-of-vivekkumar/pytest-3/test_annotation_overwrite_guar0/annotation_sample.csv). Writing anyway is dangerous; pass force=True or out_dir to acknowledge. Proceeding with write.
+2026-09-21 21:28:44,364 INFO annotation: Annotation sample: 5 rows -> /private/var/folders/t3/p10gzplx5pqg8y7hzqsqq3100000gn/T/pytest-of-vivekkumar/pytest-3/test_annotation_overwrite_guar0/annotation_sample.csv
+2026-09-21 21:28:44,367 INFO language_detector: Detecting language for 10 rows ...
+2026-09-21 21:28:44,367 INFO language_detector: Language distribution: {'English': 5, 'Hinglish': 3, 'Hindi': 1, 'Tanglish': 1}
+2026-09-21 21:28:44,369 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 6, 'POSITIVE': 4}
+2026-09-21 21:28:44,372 INFO failure_detector: Failure gate: YES=3 NO=7 | friction YES=0 | critical=2
+2026-09-21 21:28:44,375 INFO risk_engine: Risk (failure rows only): {<NA>: 8, 'FINANCIAL_SECURITY_RISK': 1, 'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=1
+2026-09-21 21:28:44,378 INFO emotion_engine: Emotion: {'NEUTRAL': 4, 'FRUSTRATION': 3, 'ANGER': 2, 'JOY': 1}
+2026-09-21 21:28:44,378 INFO aspect_engine: Extracting aspects for 10 rows ...
+2026-09-21 21:28:44,378 INFO aspect_engine: Reviews with >=1 aspect: 8
+2026-09-21 21:28:44,379 INFO response_engine: Responses: 5 | median latency: 24.0 h
+2026-09-21 21:28:44,385 INFO annotation: Annotation sample: 5 rows -> /private/var/folders/t3/p10gzplx5pqg8y7hzqsqq3100000gn/T/pytest-of-vivekkumar/pytest-3/test_annotation_default_path_i0/project_io/annotations_dir/annotation_sample.csv
+2026-09-21 21:28:45,951 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=0
+2026-09-21 21:28:45,955 INFO failure_detector: Failure gate: YES=0 NO=1 | friction YES=1 | critical=0
+2026-09-21 21:28:45,959 INFO failure_detector: Failure gate: YES=1 NO=0 | friction YES=0 | critical=1
+2026-09-21 21:28:45,963 INFO risk_engine: Risk (failure rows only): {'FINANCIAL_SECURITY_RISK': 1} | overlap YES=1
+2026-09-21 21:28:45,967 INFO risk_engine: Risk (failure rows only): {'TECHNICAL_PERFORMANCE_RISK': 1} | overlap YES=0
+2026-09-21 21:28:45,971 INFO risk_engine: Risk (failure rows only): {<NA>: 1} | overlap YES=0
+2026-09-21 21:28:45,974 INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 1, 'NEGATIVE': 1}
+2026-09-21 21:28:45,976 INFO sentiment_engine: Sentiment (rules): {'NEGATIVE': 1}
+2026-09-21 21:28:45,980 INFO emotion_engine: Emotion: {'ANGER': 1}
+2026-09-21 21:28:45,984 INFO emotion_engine: Emotion: {'JOY': 1}
+2026-10-19 18:15:30,385 INFO data_loader: Inventory: 17 files (11 usable) -> /Users/vivekkumar/FDS - PROJECT/data/inventory/data_inventory.csv
+2026-10-19 18:15:30,556 INFO data_loader: Loaded Bank_of_India_reviews.csv          rows=49327
+2026-10-19 18:15:30,564 INFO data_loader: Loaded Bank_of_Maharashtra_reviews.csv    rows=5465
+2026-10-19 18:15:30,582 INFO data_loader: Loaded Central_Bank_of_India_reviews.csv  rows=44432
+2026-10-19 18:15:30,761 INFO data_loader: Loaded Indian_Bank_reviews.csv            rows=65000
+2026-10-19 18:15:30,771 INFO data_loader: Loaded Indian_Overseas_Bank_reviews.csv   rows=19555
+2026-10-19 18:15:30,995 INFO data_loader: Loaded SBI_reviews.csv                    rows=65000
+2026-10-19 18:15:31,142 INFO data_loader: Loaded UCO_Bank_reviews.csv               rows=65000
+2026-10-19 18:15:31,167 INFO data_loader: Loaded Union_Bank_reviews.csv             rows=65000
+2026-10-19 18:15:31,194 INFO data_loader: Loaded Axis_Bank_reviews.csv              rows=9200
+2026-10-19 18:15:31,197 INFO data_loader: Loaded ICICI_Bank_reviews.csv             rows=1000
+2026-10-19 18:15:31,396 INFO data_loader: Loaded IndusInd_Bank_reviews.csv          rows=60400
+2026-10-19 18:15:31,747 INFO data_loader: Master dataset: 449379 rows -> /Users/vivekkumar/FDS - PROJECT/data/processed/master_reviews.parquet
+2026-10-19 18:15:31,771 INFO data_loader: Demo sample: 2005 rows -> /Users/vivekkumar/FDS - PROJECT/data/samples/demo_reviews.csv
+2026-10-19 18:15:37,861 INFO pipeline: Pipeline start: 449379 rows
+2026-10-19 18:15:48,282 INFO language_detector: Detecting language for 449379 rows ...
+2026-10-19 18:16:06,829 INFO language_detector: Language distribution: {'English': 227741, 'Unknown': 135901, 'Hinglish': 81385, 'Hindi': 3192, 'Tamil': 372, 'Telugu': 230, 'Bengali': 204, 'Kannada': 95, 'Gujarati': 84, 'Malayalam': 74, 'Tanglish': 37, 'Oriya': 31, 'Punjabi': 21, 'Other_Indian': 12}
+2026-10-19 18:16:08,701 INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 276971, 'NEGATIVE': 154603, 'NEUTRAL': 17805}
+2026-10-19 18:16:26,839 INFO failure_detector: Failure gate: YES=25028 NO=424351 | friction YES=13380 | critical=1667
+2026-10-19 18:16:28,721 INFO risk_engine: Risk (failure rows only): {<NA>: 433013, 'TECHNICAL_PERFORMANCE_RISK': 14844, 'FINANCIAL_SECURITY_RISK': 1522} | overlap YES=335
+2026-10-19 18:16:40,862 INFO emotion_engine: Emotion: {'NEUTRAL': 319728, 'JOY': 60558, 'ANGER': 43540, 'FRUSTRATION': 17571, 'TRUST': 3072, 'CONFUSION': 2668, 'DISAPPOINTMENT': 985, 'FEAR': 654, 'SADNESS': 603}
+2026-10-19 18:16:40,865 INFO aspect_engine: Extracting aspects for 449379 rows ...
+2026-10-19 18:16:49,356 INFO aspect_engine: Reviews with >=1 aspect: 82716
+2026-10-19 18:16:49,435 INFO response_engine: Responses: 243413 | median latency: 0.7 h
+2026-10-19 18:16:50,015 INFO pipeline: Master predictions: 449379 rows -> /Users/vivekkumar/FDS - PROJECT/data/predictions/master_predictions.parquet
+2026-10-19 18:16:50,098 INFO export: Wrote sentiment_predictions.parquet (449379 rows)
+2026-10-19 18:16:50,185 INFO export: Wrote failure_predictions.parquet (449379 rows)
+2026-10-19 18:16:50,276 INFO export: Wrote risk_predictions.parquet (449379 rows)
+2026-10-19 18:16:50,356 INFO export: Wrote emotion_predictions.parquet (449379 rows)
+2026-10-19 18:16:50,418 INFO export: Wrote aspect_predictions.parquet (449379 rows)
+2026-10-19 18:16:50,471 INFO export: Wrote aspect_edges.parquet (252 edges)
+2026-10-19 18:16:51,269 INFO pagerank_engine: PageRank computed for 14 views
+2026-10-19 18:16:55,494 INFO export: Wrote pagerank_by_bank.csv (249 rows)
+2026-10-19 18:16:55,495 INFO export: Wrote model_benchmark.csv (2 rows)
+2026-10-19 18:16:55,851 INFO figures: Figure -> 01_sentiment_distribution.png
+2026-10-19 18:16:55,936 INFO figures: Figure -> 02_sentiment_over_time.png
+2026-10-19 18:16:56,005 INFO figures: Figure -> 03_govt_vs_private_sentiment.png
+2026-10-19 18:16:56,043 INFO figures: Figure -> 04_technical_vs_financial_risk.png
+2026-10-19 18:16:56,125 INFO figures: Figure -> 05_risk_by_bank.png
+2026-10-19 18:16:56,183 INFO figures: Figure -> 06_risk_by_language.png
+2026-10-19 18:16:56,241 INFO figures: Figure -> 07_risk_by_rating.png
+2026-10-19 18:16:56,295 INFO figures: Figure -> 08_emotion_distribution.png
+2026-10-19 18:16:56,367 INFO figures: Figure -> 09_emotion_by_risk.png
+2026-10-19 18:16:56,470 INFO figures: Figure -> 10_aspect_frequency.png
+2026-10-19 18:16:56,692 INFO figures: Figure -> 11_aspect_sentiment.png
+2026-10-19 18:16:56,752 INFO figures: Figure -> 12_pagerank_top_aspects.png
+2026-10-19 18:16:56,811 INFO figures: Figure -> 13_pagerank_govt_vs_private.png
+2026-10-19 18:16:56,862 INFO figures: Figure -> 14_response_latency_distribution.png
+2026-10-19 18:16:57,003 INFO figures: Figure -> 15_response_latency_vs_rating.png
+2026-10-19 18:16:57,037 INFO figures: Figure -> 16_model_benchmark.png
+2026-10-19 18:16:57,418 INFO figures: Figure -> 17_confusion_matrices.png
+2026-10-19 18:16:57,459 INFO figures: Figure -> 18_language_specific_model_performance.png
+2026-10-19 18:16:57,485 INFO figures: Figure -> 19_flat_vs_hierarchical.png
+2026-10-19 18:16:57,526 INFO figures: Figure -> 20_severity_distribution.png
+2026-10-19 18:16:57,698 INFO figures: Figure -> 21_app_version_trend.png
+2026-10-19 18:16:57,794 INFO figures: Figure -> 22_potential_anomaly_timeline.png
+2026-10-19 18:16:57,797 INFO figures: Figures written: 22/22
+2026-10-19 18:16:57,797 INFO pipeline: Report tables written to /Users/vivekkumar/FDS - PROJECT/reports/tables

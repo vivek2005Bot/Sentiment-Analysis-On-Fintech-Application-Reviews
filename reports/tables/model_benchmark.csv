@@ -1,0 +1,3 @@
+model,task,accuracy,macro_f1,weighted_f1,precision,recall,inference_time_s,split,train_size,test_size,device,seed
+distilbert-base-uncased,flat,0.92,0.3194,0.8817,0.3067,0.3333,1.84,random,800,200,mps,42
+distilbert-base-uncased,sentiment,0.755,0.4936,0.7318,0.5089,0.4963,1.83,random,800,200,mps,42

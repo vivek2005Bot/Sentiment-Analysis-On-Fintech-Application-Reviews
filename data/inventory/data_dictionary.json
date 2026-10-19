@@ -1,0 +1,305 @@
+{
+  "generated_at": "2026-10-19T18:15:30",
+  "canonical_schema": {
+    "review_id": "Stable review identifier if provided by source.",
+    "review_text": "Raw review text (never modified in master).",
+    "rating": "Star rating 1-5 if provided.",
+    "review_date": "Review timestamp if provided (may be null).",
+    "bank": "Derived from file name; never hard-coded.",
+    "bank_type": "GOVERNMENT or PRIVATE from raw folder name.",
+    "source_file": "Original file name (provenance).",
+    "source_folder": "Original folder (provenance).",
+    "source_row": "1-based row within source file (provenance)."
+  },
+  "files": [
+    {
+      "source_file": "Bank_of_India_reviews.csv",
+      "bank": "Bank_of_India",
+      "bank_type": "GOVERNMENT",
+      "mapped_columns": {
+        "review_text": "content",
+        "rating": "score",
+        "review_date": "at",
+        "review_id": "reviewId",
+        "reply_text": "replyContent",
+        "reply_date": "repliedAt",
+        "app_version": "appVersion"
+      },
+      "usable": true,
+      "status": "ok",
+      "rows": 49327
+    },
+    {
+      "source_file": "Bank_of_Maharashtra_reviews.csv",
+      "bank": "Bank_of_Maharashtra",
+      "bank_type": "GOVERNMENT",
+      "mapped_columns": {
+        "review_text": "content",
+        "rating": "score",
+        "review_date": "at",
+        "review_id": "reviewId",
+        "reply_text": "replyContent",
+        "reply_date": "repliedAt",
+        "app_version": "appVersion"
+      },
+      "usable": true,
+      "status": "ok",
+      "rows": 5465
+    },
+    {
+      "source_file": "Central_Bank_of_India_reviews.csv",
+      "bank": "Central_Bank_of_India",
+      "bank_type": "GOVERNMENT",
+      "mapped_columns": {
+        "review_text": "content",
+        "rating": "score",
+        "review_date": "at",
+        "review_id": "reviewId",
+        "reply_text": "replyContent",
+        "reply_date": "repliedAt",
+        "app_version": "appVersion"
+      },
+      "usable": true,
+      "status": "ok",
+      "rows": 44432
+    },
+    {
+      "source_file": "Indian_Bank_reviews.csv",
+      "bank": "Indian_Bank",
+      "bank_type": "GOVERNMENT",
+      "mapped_columns": {
+        "review_text": "content",
+        "rating": "score",
+        "review_date": "at",
+        "review_id": "reviewId",
+        "reply_text": "replyContent",
+        "reply_date": "repliedAt",
+        "app_version": "appVersion"
+      },
+      "usable": true,
+      "status": "ok",
+      "rows": 65000
+    },
+    {
+      "source_file": "Indian_Overseas_Bank_reviews.csv",
+      "bank": "Indian_Overseas_Bank",
+      "bank_type": "GOVERNMENT",
+      "mapped_columns": {
+        "review_text": "content",
+        "rating": "score",
+        "review_date": "at",
+        "review_id": "reviewId",
+        "reply_text": "replyContent",
+        "reply_date": "repliedAt",
+        "app_version": "appVersion"
+      },
+      "usable": true,
+      "status": "ok",
+      "rows": 19555
+    },
+    {
+      "source_file": "SBI_reviews.csv",
+      "bank": "SBI",
+      "bank_type": "GOVERNMENT",
+      "mapped_columns": {
+        "review_text": "content",
+        "rating": "score",
+        "review_date": "at",
+        "review_id": "reviewId",
+        "reply_text": "replyContent",
+        "reply_date": "repliedAt",
+        "app_version": "appVersion"
+      },
+      "usable": true,
+      "status": "ok",
+      "rows": 65000
+    },
+    {
+      "source_file": "UCO_Bank_reviews.csv",
+      "bank": "UCO_Bank",
+      "bank_type": "GOVERNMENT",
+      "mapped_columns": {
+        "review_text": "content",
+        "rating": "score",
+        "review_date": "at",
+        "review_id": "reviewId",
+        "reply_text": "replyContent",
+        "reply_date": "repliedAt",
+        "app_version": "appVersion"
+      },
+      "usable": true,
+      "status": "ok",
+      "rows": 65000
+    },
+    {
+      "source_file": "Union_Bank_reviews.csv",
+      "bank": "Union_Bank",
+      "bank_type": "GOVERNMENT",
+      "mapped_columns": {
+        "review_text": "content",
+        "rating": "score",
+        "review_date": "at",
+        "review_id": "reviewId",
+        "reply_text": "replyContent",
+        "reply_date": "repliedAt",
+        "app_version": "appVersion"
+      },
+      "usable": true,
+      "status": "ok",
+      "rows": 65000
+    },
+    {
+      "source_file": "Axis_Bank_reviews.csv",
+      "bank": "Axis_Bank",
+      "bank_type": "PRIVATE",
+      "mapped_columns": {
+        "review_text": "content",
+        "rating": "score",
+        "review_date": "at",
+        "review_id": "reviewId",
+        "reply_text": "replyContent",
+        "reply_date": "repliedAt",
+        "app_version": "appVersion"
+      },
+      "usable": true,
+      "status": "ok",
+      "rows": 9200
+    },
+    {
+      "source_file": "Bandhan_Bank_reviews.csv",
+      "bank": "Bandhan_Bank",
+      "bank_type": "PRIVATE",
+      "mapped_columns": {
+        "review_text": "",
+        "rating": "",
+        "review_date": "",
+        "review_id": "",
+        "reply_text": "",
+        "reply_date": "",
+        "app_version": ""
+      },
+      "usable": false,
+      "status": "empty_file",
+      "rows": 0
+    },
+    {
+      "source_file": "City_Union_Bank_reviews.csv",
+      "bank": "City_Union_Bank",
+      "bank_type": "PRIVATE",
+      "mapped_columns": {
+        "review_text": "",
+        "rating": "",
+        "review_date": "",
+        "review_id": "",
+        "reply_text": "",
+        "reply_date": "",
+        "app_version": ""
+      },
+      "usable": false,
+      "status": "empty_file",
+      "rows": 0
+    },
+    {
+      "source_file": "Federal_Bank_reviews.csv",
+      "bank": "Federal_Bank",
+      "bank_type": "PRIVATE",
+      "mapped_columns": {
+        "review_text": "",
+        "rating": "",
+        "review_date": "",
+        "review_id": "",
+        "reply_text": "",
+        "reply_date": "",
+        "app_version": ""
+      },
+      "usable": false,
+      "status": "empty_file",
+      "rows": 0
+    },
+    {
+      "source_file": "HDFC_Bank_reviews.csv",
+      "bank": "HDFC_Bank",
+      "bank_type": "PRIVATE",
+      "mapped_columns": {
+        "review_text": "",
+        "rating": "",
+        "review_date": "",
+        "review_id": "",
+        "reply_text": "",
+        "reply_date": "",
+        "app_version": ""
+      },
+      "usable": false,
+      "status": "empty_file",
+      "rows": 0
+    },
+    {
+      "source_file": "ICICI_Bank_reviews.csv",
+      "bank": "ICICI_Bank",
+      "bank_type": "PRIVATE",
+      "mapped_columns": {
+        "review_text": "content",
+        "rating": "score",
+        "review_date": "at",
+        "review_id": "reviewId",
+        "reply_text": "replyContent",
+        "reply_date": "repliedAt",
+        "app_version": "appVersion"
+      },
+      "usable": true,
+      "status": "ok",
+      "rows": 1000
+    },
+    {
+      "source_file": "IDFC_FIRST_Bank_reviews.csv",
+      "bank": "IDFC_FIRST_Bank",
+      "bank_type": "PRIVATE",
+      "mapped_columns": {
+        "review_text": "",
+        "rating": "",
+        "review_date": "",
+        "review_id": "",
+        "reply_text": "",
+        "reply_date": "",
+        "app_version": ""
+      },
+      "usable": false,
+      "status": "empty_file",
+      "rows": 0
+    },
+    {
+      "source_file": "IndusInd_Bank_reviews.csv",
+      "bank": "IndusInd_Bank",
+      "bank_type": "PRIVATE",
+      "mapped_columns": {
+        "review_text": "content",
+        "rating": "score",
+        "review_date": "at",
+        "review_id": "reviewId",
+        "reply_text": "replyContent",
+        "reply_date": "repliedAt",
+        "app_version": "appVersion"
+      },
+      "usable": true,
+      "status": "ok",
+      "rows": 60400
+    },
+    {
+      "source_file": "Kotak_Mahindra_Bank_reviews.csv",
+      "bank": "Kotak_Mahindra_Bank",
+      "bank_type": "PRIVATE",
+      "mapped_columns": {
+        "review_text": "",
+        "rating": "",
+        "review_date": "",
+        "review_id": "",
+        "reply_text": "",
+        "reply_date": "",
+        "app_version": ""
+      },
+      "usable": false,
+      "status": "empty_file",
+      "rows": 0
+    }
+  ]
+}

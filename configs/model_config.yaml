@@ -1,0 +1,119 @@
+# =============================================================================
+# Transformer model registry and training configuration (plan sections 19-23)
+# Checkpoints are validated at load time; only sequence-compatible models are
+# benchmarked per task. Adjust `enabled` flags to control what gets trained.
+# =============================================================================
+
+benchmark:
+  # Representative, hardware-aware starting subset (16GB Apple M5, MPS).
+  # Add models from the candidate list when resources permit.
+  models:
+    - name: distilbert-base-uncased
+      family: DistilBERT
+      task_fit: [sentiment, failure, risk, emotion, flat]
+      enabled: true
+    - name: xlm-roberta-base
+      family: XLM-R
+      task_fit: [sentiment, failure, risk, emotion]
+      enabled: true
+    - name: google/muril-base-cased
+      family: MuRIL
+      task_fit: [sentiment, failure, risk, emotion]
+      enabled: true
+    - name: bert-base-uncased
+      family: BERT
+      task_fit: [sentiment]
+      enabled: false
+    - name: roberta-base
+      family: RoBERTa
+      task_fit: [sentiment]
+      enabled: false
+    - name: bert-base-multilingual-cased
+      family: mBERT
+      task_fit: [sentiment, failure, risk]
+      enabled: false
+    - name: ai4bharat/indic-bert
+      family: IndicBERT
+      task_fit: [sentiment, failure, risk]
+      enabled: false
+    - name: ai4bharat/IndicBERTv2-MLM-only
+      family: IndicBERTv2
+      task_fit: [sentiment, failure, risk]
+      enabled: false
+
+  # Candidate pool for later expansion (documented in plan section 19):
+  candidate_models:
+    - distilbert-base-uncased
+    - bert-base-uncased
+    - roberta-base
+    - bert-base-multilingual-cased
+    - xlm-roberta-base
+    - xlm-roberta-large
+    - google/muril-base-cased
+    - google/muril-large-cased
+    - ai4bharat/indic-bert
+    - ai4bharat/IndicBERTv2-MLM-only
+
+tasks:
+  sentiment:
+    labels: [NEGATIVE, NEUTRAL, POSITIVE]
+    text_column: review_text_model
+    label_column: sentiment
+  failure:
+    labels: [NO, YES]
+    text_column: review_text_model
+    label_column: failure_flag
+  risk:
+    labels: [TECHNICAL_PERFORMANCE_RISK, FINANCIAL_SECURITY_RISK]
+    text_column: review_text_model
+    label_column: primary_risk
+    filter_column: failure_flag      # train/eval only on failure=YES rows
+    filter_value: "YES"
+  emotion:
+    labels: [ANGER, FRUSTRATION, FEAR, SADNESS, DISAPPOINTMENT, JOY, TRUST,
+             CONFUSION, NEUTRAL, OTHER]
+    text_column: review_text_model
+    label_column: emotion
+  flat:
+    labels: [NORMAL, OPERATIONAL_FRICTION, TECHNICAL_RISK, FINANCIAL_RISK]
+    text_column: review_text_model
+    label_column: flat_label
+    derived: true               # computed by src.evaluate.flat_label at load
+
+training:
+  max_length: 256
+  learning_rate: 2.0e-5
+  epochs: 3
+  train_batch_size: 16
+  eval_batch_size: 32
+  warmup_ratio: 0.1
+  weight_decay: 0.01
+  early_stopping_patience: 2
+  gradient_accumulation_steps: 2
+  fp16: false                       # MPS fp16 unreliable; keep fp32
+  class_weighting: balanced
+  seed: 42
+  smoke_run:                        # fast pipeline validation (Rule 15)
+    max_train_samples: 800
+    max_eval_samples: 200
+    epochs: 1
+
+evaluation:
+  test_size: 0.15
+  val_size: 0.15
+  splits: [random, time, cross_bank]
+  language_subsets: [English, Hinglish, Hindi, Tamil, Telugu, Kannada,
+                     Malayalam, Bengali, Other_Indian, code_mixed, non_code_mixed]
+  risk_cost_matrix:                 # optional sensitivity analysis (plan s.23)
+    enabled: false
+    fn_financial_cost: 5.0
+    fp_financial_cost: 1.0
+
+human_review:
+  enabled: true
+  confidence_threshold: 0.70
+
+inference:
+  batch_size: 64
+  device: auto                      # auto|mps|cpu
+  write_master_predictions: true

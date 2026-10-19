@@ -1,0 +1,24 @@
+[
+  {
+    "bank_type": "PRIVATE",
+    "metric": "negative_rate",
+    "baseline_months": 6,
+    "baseline_rate": 0.25333,
+    "current_month": "2026-09-01",
+    "current_rate": 0.40544,
+    "z_score": 4.16,
+    "status": "Potential anomaly",
+    "note": "Analytical early-warning signal, not an outage confirmation."
+  },
+  {
+    "bank_type": "PRIVATE",
+    "metric": "failure_rate",
+    "baseline_months": 6,
+    "baseline_rate": 0.05006,
+    "current_month": "2026-09-01",
+    "current_rate": 0.07972,
+    "z_score": 2.5,
+    "status": "Potential anomaly",
+    "note": "Analytical early-warning signal, not an outage confirmation."
+  }
+]

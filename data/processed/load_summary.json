@@ -1,0 +1,99 @@
+{
+  "generated_at": "2026-10-19T18:15:31",
+  "files": [
+    {
+      "source_file": "Bank_of_India_reviews.csv",
+      "bank": "Bank_of_India",
+      "bank_type": "GOVERNMENT",
+      "rows_before": 49327,
+      "rows_after": 49327,
+      "rows_removed_infile_dupes": 0
+    },
+    {
+      "source_file": "Bank_of_Maharashtra_reviews.csv",
+      "bank": "Bank_of_Maharashtra",
+      "bank_type": "GOVERNMENT",
+      "rows_before": 5465,
+      "rows_after": 5465,
+      "rows_removed_infile_dupes": 0
+    },
+    {
+      "source_file": "Central_Bank_of_India_reviews.csv",
+      "bank": "Central_Bank_of_India",
+      "bank_type": "GOVERNMENT",
+      "rows_before": 44432,
+      "rows_after": 44432,
+      "rows_removed_infile_dupes": 0
+    },
+    {
+      "source_file": "Indian_Bank_reviews.csv",
+      "bank": "Indian_Bank",
+      "bank_type": "GOVERNMENT",
+      "rows_before": 65000,
+      "rows_after": 65000,
+      "rows_removed_infile_dupes": 0
+    },
+    {
+      "source_file": "Indian_Overseas_Bank_reviews.csv",
+      "bank": "Indian_Overseas_Bank",
+      "bank_type": "GOVERNMENT",
+      "rows_before": 19555,
+      "rows_after": 19555,
+      "rows_removed_infile_dupes": 0
+    },
+    {
+      "source_file": "SBI_reviews.csv",
+      "bank": "SBI",
+      "bank_type": "GOVERNMENT",
+      "rows_before": 65000,
+      "rows_after": 65000,
+      "rows_removed_infile_dupes": 0
+    },
+    {
+      "source_file": "UCO_Bank_reviews.csv",
+      "bank": "UCO_Bank",
+      "bank_type": "GOVERNMENT",
+      "rows_before": 65000,
+      "rows_after": 65000,
+      "rows_removed_infile_dupes": 0
+    },
+    {
+      "source_file": "Union_Bank_reviews.csv",
+      "bank": "Union_Bank",
+      "bank_type": "GOVERNMENT",
+      "rows_before": 65000,
+      "rows_after": 65000,
+      "rows_removed_infile_dupes": 0
+    },
+    {
+      "source_file": "Axis_Bank_reviews.csv",
+      "bank": "Axis_Bank",
+      "bank_type": "PRIVATE",
+      "rows_before": 9200,
+      "rows_after": 9200,
+      "rows_removed_infile_dupes": 0
+    },
+    {
+      "source_file": "ICICI_Bank_reviews.csv",
+      "bank": "ICICI_Bank",
+      "bank_type": "PRIVATE",
+      "rows_before": 1000,
+      "rows_after": 1000,
+      "rows_removed_infile_dupes": 0
+    },
+    {
+      "source_file": "IndusInd_Bank_reviews.csv",
+      "bank": "IndusInd_Bank",
+      "bank_type": "PRIVATE",
+      "rows_before": 60400,
+      "rows_after": 60400,
+      "rows_removed_infile_dupes": 0
+    }
+  ],
+  "rows_total": 449379,
+  "rows_removed_infile_dupes": 0,
+  "rows_removed_global_dupes": 0,
+  "empty_text_rows": 12,
+  "banks": 11,
+  "removal_log": "/Users/vivekkumar/FDS - PROJECT/data/processed/removal_log.csv"
+}

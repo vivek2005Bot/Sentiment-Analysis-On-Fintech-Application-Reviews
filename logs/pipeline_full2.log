@@ -1,0 +1,21 @@
+INFO pipeline: Pipeline start: 449379 rows
+INFO language_detector: Detecting language for 449379 rows ...
+INFO language_detector: Language distribution: {'English': 227741, 'Unknown': 135901, 'Hinglish': 81385, 'Hindi': 3192, 'Tamil': 372, 'Telugu': 230, 'Bengali': 204, 'Kannada': 95, 'Gujarati': 84, 'Malayalam': 74, 'Tanglish': 37, 'Oriya': 31, 'Punjabi': 21, 'Other_Indian': 12}
+INFO sentiment_engine: Sentiment (rules): {'POSITIVE': 276971, 'NEGATIVE': 154603, 'NEUTRAL': 17805}
+INFO failure_detector: Failure gate: YES=25028 NO=424351 | friction YES=13380 | critical=1667
+INFO risk_engine: Risk (failure rows only): {<NA>: 433013, 'TECHNICAL_PERFORMANCE_RISK': 14844, 'FINANCIAL_SECURITY_RISK': 1522} | overlap YES=335
+INFO emotion_engine: Emotion: {'NEUTRAL': 319728, 'JOY': 60558, 'ANGER': 43540, 'FRUSTRATION': 17571, 'TRUST': 3072, 'CONFUSION': 2668, 'DISAPPOINTMENT': 985, 'FEAR': 654, 'SADNESS': 603}
+INFO aspect_engine: Extracting aspects for 449379 rows ...
+INFO aspect_engine: Reviews with >=1 aspect: 82716
+INFO response_engine: Responses: 243413 | median latency: 0.7 h
+INFO pipeline: Master predictions: 449379 rows -> /Users/vivekkumar/FDS - PROJECT/data/predictions/master_predictions.parquet
+INFO pagerank_engine: PageRank computed for 14 views
+INFO pipeline: Report tables written to /Users/vivekkumar/FDS - PROJECT/reports/tables
+
+=== PIPELINE COMPLETE ===
+rows: 449379
+sentiment: {'POSITIVE': 276971, 'NEGATIVE': 154603, 'NEUTRAL': 17805}
+failure: {'NO': 424351, 'YES': 25028}
+primary_risk: {<NA>: 433013, 'TECHNICAL_PERFORMANCE_RISK': 14844, 'FINANCIAL_SECURITY_RISK': 1522}
+language: {'English': 227741, 'Unknown': 135901, 'Hinglish': 81385, 'Hindi': 3192, 'Tamil': 372, 'Telugu': 230, 'Bengali': 204, 'Kannada': 95, 'Gujarati': 84, 'Malayalam': 74, 'Tanglish': 37, 'Oriya': 31, 'Punjabi': 21, 'Other_Indian': 12}
+severity: {1: 423027, 2: 10728, 3: 13912, 4: 269, 5: 1443}

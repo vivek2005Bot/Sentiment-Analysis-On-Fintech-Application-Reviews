@@ -1,0 +1,34 @@
+INFO data_loader: Inventory: 17 files (11 usable) -> /Users/vivekkumar/FDS - PROJECT/data/inventory/data_inventory.csv
+INFO data_loader: Loaded Bank_of_India_reviews.csv          rows=49327
+INFO data_loader: Loaded Bank_of_Maharashtra_reviews.csv    rows=5465
+INFO data_loader: Loaded Central_Bank_of_India_reviews.csv  rows=44432
+INFO data_loader: Loaded Indian_Bank_reviews.csv            rows=65000
+INFO data_loader: Loaded Indian_Overseas_Bank_reviews.csv   rows=19555
+INFO data_loader: Loaded SBI_reviews.csv                    rows=65000
+INFO data_loader: Loaded UCO_Bank_reviews.csv               rows=65000
+INFO data_loader: Loaded Union_Bank_reviews.csv             rows=65000
+INFO data_loader: Loaded Axis_Bank_reviews.csv              rows=9200
+INFO data_loader: Loaded ICICI_Bank_reviews.csv             rows=1000
+INFO data_loader: Loaded IndusInd_Bank_reviews.csv          rows=60400
+INFO data_loader: Master dataset: 449379 rows -> /Users/vivekkumar/FDS - PROJECT/data/processed/master_reviews.parquet
+INFO data_loader: Demo sample: 2005 rows -> /Users/vivekkumar/FDS - PROJECT/data/samples/demo_reviews.csv
+                      source_file                  bank  bank_type  rows  usable     status
+        Bank_of_India_reviews.csv         Bank_of_India GOVERNMENT 49327    True         ok
+  Bank_of_Maharashtra_reviews.csv   Bank_of_Maharashtra GOVERNMENT  5465    True         ok
+Central_Bank_of_India_reviews.csv Central_Bank_of_India GOVERNMENT 44432    True         ok
+          Indian_Bank_reviews.csv           Indian_Bank GOVERNMENT 65000    True         ok
+ Indian_Overseas_Bank_reviews.csv  Indian_Overseas_Bank GOVERNMENT 19555    True         ok
+                  SBI_reviews.csv                   SBI GOVERNMENT 65000    True         ok
+             UCO_Bank_reviews.csv              UCO_Bank GOVERNMENT 65000    True         ok
+           Union_Bank_reviews.csv            Union_Bank GOVERNMENT 65000    True         ok
+            Axis_Bank_reviews.csv             Axis_Bank    PRIVATE  9200    True         ok
+         Bandhan_Bank_reviews.csv          Bandhan_Bank    PRIVATE     0   False empty_file
+      City_Union_Bank_reviews.csv       City_Union_Bank    PRIVATE     0   False empty_file
+         Federal_Bank_reviews.csv          Federal_Bank    PRIVATE     0   False empty_file
+            HDFC_Bank_reviews.csv             HDFC_Bank    PRIVATE     0   False empty_file
+           ICICI_Bank_reviews.csv            ICICI_Bank    PRIVATE  1000    True         ok
+      IDFC_FIRST_Bank_reviews.csv       IDFC_FIRST_Bank    PRIVATE     0   False empty_file
+        IndusInd_Bank_reviews.csv         IndusInd_Bank    PRIVATE 60400    True         ok
+  Kotak_Mahindra_Bank_reviews.csv   Kotak_Mahindra_Bank    PRIVATE     0   False empty_file
+
+Master rows: 449379 | banks: 11 | empty text: 12

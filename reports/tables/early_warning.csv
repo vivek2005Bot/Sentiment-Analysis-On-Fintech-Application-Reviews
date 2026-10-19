@@ -1,0 +1,9 @@
+bank_type,metric,baseline_months,baseline_rate,current_month,current_rate,z_score,status,note
+GOVERNMENT,negative_rate,6,0.32154,2026-09-01,0.32413,0.18,Normal,"Analytical early-warning signal, not an outage confirmation."
+GOVERNMENT,failure_rate,6,0.05589,2026-09-01,0.05987,1.23,Normal,"Analytical early-warning signal, not an outage confirmation."
+GOVERNMENT,technical_risk_rate,6,0.03554,2026-09-01,0.03858,1.22,Normal,"Analytical early-warning signal, not an outage confirmation."
+GOVERNMENT,financial_risk_rate,6,0.00301,2026-09-01,0.0031,0.28,Normal,"Analytical early-warning signal, not an outage confirmation."
+PRIVATE,negative_rate,6,0.25333,2026-09-01,0.40544,4.16,Potential anomaly,"Analytical early-warning signal, not an outage confirmation."
+PRIVATE,failure_rate,6,0.05006,2026-09-01,0.07972,2.5,Potential anomaly,"Analytical early-warning signal, not an outage confirmation."
+PRIVATE,technical_risk_rate,6,0.02898,2026-09-01,0.04089,1.35,Normal,"Analytical early-warning signal, not an outage confirmation."
+PRIVATE,financial_risk_rate,6,0.00684,2026-09-01,0.00937,1.86,Normal,"Analytical early-warning signal, not an outage confirmation."
