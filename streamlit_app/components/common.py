@@ -539,8 +539,11 @@ def donut_chart(series: pd.Series, title: str = "",
     st.plotly_chart(fig, use_container_width=True, theme="streamlit")
 
 
-def section_header(icon: str, title: str, subtitle: str = "") -> None:
+def section_header(icon: str, title: str = "", subtitle: str = "") -> None:
     """Render a styled section header with optional subtitle."""
+    if not title:
+        title = icon
+        icon = "📌"
     st.markdown(f"### {icon} {title}")
     if subtitle:
         st.caption(subtitle)

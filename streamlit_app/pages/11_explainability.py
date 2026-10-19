@@ -57,7 +57,7 @@ Until then this page explains how attribution works:
     else:
         st.info(f"ℹ️ Fine-tuned weights not saved on disk for **{task}**; attribution will run using the base **distilbert-base-uncased** architecture.")
 
-    section_header("Select a review")
+    section_header("🎯", "Select a review")
     
     # Filter for meaningful, multi-word reviews for better attribution insights
     clean_reviews = df.dropna(subset=["review_text_model"])
